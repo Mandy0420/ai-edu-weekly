@@ -8,12 +8,14 @@
   :root{
     --bg:#f6f7f9; --card:#ffffff; --ink:#1d1d1f; --sub:#6e6e73;
     --line:#ececf0; --accent:#2f6bff; --chip:#f0f2f5; --chip-ink:#3a3a3e;
+    --bar:rgba(246,247,249,.82);
     --shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.06);
   }
   @media (prefers-color-scheme:dark){
     :root{
       --bg:#0e0f12; --card:#17181c; --ink:#f2f2f4; --sub:#9a9aa2;
       --line:#26272d; --accent:#5b8cff; --chip:#22242a; --chip-ink:#c7c8cf;
+      --bar:rgba(14,15,18,.82);
       --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
     }
   }
@@ -23,36 +25,66 @@
     font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;
     -webkit-font-smoothing:antialiased; line-height:1.5;
   }
-  .wrap{max-width:920px; margin:0 auto; padding:56px 24px 96px;}
-  header.top{margin-bottom:40px;}
+  .wrap{max-width:940px; margin:0 auto; padding:52px 24px 96px;}
+  header.top{margin-bottom:22px;}
   .kicker{font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600;}
   h1{font-size:32px; line-height:1.2; margin:10px 0 8px; font-weight:700; letter-spacing:-.01em;}
   .meta{color:var(--sub); font-size:14px;}
-  .week{margin-top:44px;}
-  .week-head{display:flex; align-items:baseline; gap:14px; margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--line);}
+
+  /* 工具条：搜索 + 来源筛选 */
+  .toolbar{position:sticky; top:0; z-index:9; padding:12px 0 10px; margin-bottom:8px;
+    background:var(--bar); backdrop-filter:saturate(180%) blur(12px);
+    -webkit-backdrop-filter:saturate(180%) blur(12px); border-bottom:1px solid var(--line);}
+  .search{width:100%; padding:10px 14px; border-radius:12px; border:1px solid var(--line);
+    background:var(--card); color:var(--ink); font-size:14.5px; outline:none;}
+  .search:focus{border-color:var(--accent);}
+  .filters{display:flex; flex-wrap:wrap; gap:7px; margin-top:10px;}
+  .fchip{cursor:pointer; user-select:none; font-size:12.5px; padding:5px 12px; border-radius:999px;
+    border:1px solid var(--line); background:var(--card); color:var(--sub); display:flex; align-items:center; gap:6px;
+    transition:all .12s ease;}
+  .fchip .dot{width:8px; height:8px; border-radius:50%;}
+  .fchip:hover{color:var(--ink);}
+  .fchip.on{background:var(--ink); color:var(--bg); border-color:var(--ink);}
+  .fchip.on .dot{outline:2px solid var(--bg);}
+
+  .week{margin-top:40px;}
+  .week.hidden,.card.hidden,.featured.hidden{display:none;}
+  .week-head{display:flex; align-items:baseline; gap:14px; margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid var(--line);}
   .week-no{font-size:22px; font-weight:700; letter-spacing:-.01em;}
   .week-range{color:var(--sub); font-size:14px;}
   .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
-  @media (max-width:640px){ .grid{grid-template-columns:1fr;} h1{font-size:26px;} .wrap{padding:40px 18px 72px;} }
-  .card{
-    background:var(--card); border-radius:18px; padding:22px 22px 20px;
-    box-shadow:var(--shadow); display:flex; flex-direction:column; gap:10px;
-    transition:transform .15s ease, box-shadow .15s ease;
-  }
+  @media (max-width:640px){ .grid{grid-template-columns:1fr;} h1{font-size:26px;} .wrap{padding:36px 16px 72px;} }
+
+  .card{background:var(--card); border-radius:18px; padding:20px 20px 18px; box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:9px; transition:transform .15s ease;}
   .card:hover{transform:translateY(-2px);}
-  .card h3{margin:0; font-size:18px; font-weight:650;}
+  .card h3{margin:0; font-size:17px; font-weight:650; line-height:1.35;}
   .card h3 a{color:inherit; text-decoration:none;}
   .card h3 a:hover{color:var(--accent);}
-  .chips{display:flex; flex-wrap:wrap; gap:6px;}
+  .chips{display:flex; flex-wrap:wrap; gap:6px; align-items:center;}
+  .badge{font-size:11.5px; font-weight:600; padding:3px 9px; border-radius:999px; display:inline-flex; align-items:center; gap:5px;}
+  .badge .dot{width:7px; height:7px; border-radius:50%;}
   .chip{background:var(--chip); color:var(--chip-ink); font-size:12px; padding:3px 10px; border-radius:999px; font-weight:500;}
   .one{font-size:14.5px; color:var(--ink);}
-  .why{font-size:13.5px; color:var(--sub);}
+  .why{font-size:13px; color:var(--sub);}
   .why b{color:var(--ink); font-weight:600;}
-  .src{margin-top:2px; font-size:12px;}
+  .src{margin-top:1px; font-size:12px;}
   .src a{color:var(--accent); text-decoration:none;}
+
+  /* 本周精选 */
+  .featured{margin-top:26px;}
+  .feat-title{font-size:15px; font-weight:700; color:var(--ink); margin:0 0 14px; display:flex; align-items:center; gap:8px;}
+  .feat-title .star{color:var(--accent);}
+  .feat-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  @media (max-width:760px){ .feat-grid{grid-template-columns:1fr;} }
+  .card.feat{border:1px solid var(--line); background:linear-gradient(180deg,var(--card),var(--card));}
+  .card.feat h3{font-size:18.5px;}
+  .card.feat::before{content:"精选"; align-self:flex-start; font-size:11px; font-weight:700;
+    color:var(--accent); background:color-mix(in srgb,var(--accent) 12%,transparent); padding:2px 9px; border-radius:999px;}
+
   .empty{background:var(--card); border-radius:18px; padding:40px; text-align:center; color:var(--sub); box-shadow:var(--shadow);}
-  footer{margin-top:64px; color:var(--sub); font-size:12.5px; text-align:center;}
-  .sample-tag{display:inline-block; margin-left:8px; font-size:11px; background:var(--chip); color:var(--sub); padding:2px 8px; border-radius:999px;}
+  .noresult{color:var(--sub); font-size:14px; padding:24px 4px;}
+  footer{margin-top:60px; color:var(--sub); font-size:12.5px; text-align:center;}
 </style>
 </head>
 <body>
@@ -62,59 +94,116 @@
     <h1>国外 AI + 教育新品 · 每周看板</h1>
     <div class="meta" id="meta">加载中…</div>
   </header>
+
+  <div class="toolbar">
+    <input id="search" class="search" type="search" placeholder="🔍 搜索产品名 / 关键词…" autocomplete="off" />
+    <div class="filters" id="filters"></div>
+  </div>
+
   <main id="feed"></main>
+  <div class="noresult hidden" id="noresult">没有匹配的结果，换个关键词或点「全部」试试。</div>
+
   <footer>
-    每周由云端 Agent 自动搜集 · 数据源 <span id="foot-src">Product Hunt / Hacker News / 各家 AI 教育 newsletter</span><br/>
-    只收录海外、且与 AI×教育相关的新产品
+    每周一 09:00(北京时间)由 GitHub Actions 自动搜集 · 多源 · 只收录海外 AI×教育新品
   </footer>
 </div>
 
 <script>
-const CATEGORY = "分类", COUNTRY = "地区";
+const SOURCE_META = {
+  "Hacker News":{abbr:"HN",color:"#ff6a00"},
+  "Product Hunt":{abbr:"PH",color:"#da552f"},
+  "GitHub":{abbr:"GH",color:"#8957e5"},
+  "Reddit":{abbr:"RD",color:"#ff4500"},
+  "EdSurge":{abbr:"ES",color:"#0f8a6a"},
+  "TechCrunch":{abbr:"TC",color:"#0a9d54"},
+  "Class Central":{abbr:"CC",color:"#2f6bff"},
+};
+const FLAG = {"美国":"🇺🇸","英国":"🇬🇧","印度":"🇮🇳","德国":"🇩🇪","法国":"🇫🇷","加拿大":"🇨🇦",
+  "新加坡":"🇸🇬","日本":"🇯🇵","韩国":"🇰🇷","澳大利亚":"🇦🇺","以色列":"🇮🇱","荷兰":"🇳🇱","巴西":"🇧🇷","西班牙":"🇪🇸","中国":"🇨🇳"};
+const FEATURED_N = 3;
+const state = {q:"", src:null};
+
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-function card(it){
-  const chips = [it.country, it.category].filter(Boolean)
-    .map(c=>`<span class="chip">${esc(c)}</span>`).join("");
-  const title = it.url
-    ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a>`
-    : esc(it.name);
-  const why = it.why_it_matters ? `<div class="why"><b>为什么值得看：</b>${esc(it.why_it_matters)}</div>` : "";
-  const src = it.source ? `<div class="src"><a href="${esc(it.source_url||it.url||'#')}" target="_blank" rel="noopener">来源：${esc(it.source)}</a></div>` : "";
-  return `<div class="card">
+function meta(s){return SOURCE_META[s]||{abbr:(s||"?").slice(0,2),color:"#8a8a90"};}
+
+function card(it, feat){
+  const m = meta(it.source);
+  const badge = `<span class="badge" style="color:${m.color};background:${m.color}1f"><span class="dot" style="background:${m.color}"></span>${esc(it.source||"")}</span>`;
+  const country = it.country ? `<span class="chip">${FLAG[it.country]||""} ${esc(it.country)}</span>` : "";
+  const cat = it.category ? `<span class="chip">${esc(it.category)}</span>` : "";
+  const title = it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a>` : esc(it.name);
+  const why = it.why_it_matters ? `<div class="why">${esc(it.why_it_matters)}</div>` : "";
+  const src = it.source_url ? `<div class="src"><a href="${esc(it.source_url)}" target="_blank" rel="noopener">来源链接 ↗</a></div>` : "";
+  const text = `${it.name} ${it.one_liner} ${it.category} ${it.country} ${it.source}`.toLowerCase();
+  return `<div class="card${feat?" feat":""}" data-source="${esc(it.source||"")}" data-text="${esc(text)}">
     <h3>${title}</h3>
-    <div class="chips">${chips}</div>
+    <div class="chips">${badge}${country}${cat}</div>
     <div class="one">${esc(it.one_liner||"")}</div>
     ${why}${src}
   </div>`;
 }
-function weekBlock(w){
-  const sample = w.sample ? `<span class="sample-tag">示例 · 首次真实运行后替换</span>` : "";
-  const items = (w.items||[]).map(card).join("");
-  return `<section class="week">
-    <div class="week-head">
-      <span class="week-no">${esc(w.week||"")}${sample}</span>
-      <span class="week-range">${esc(w.date_range||"")}</span>
-    </div>
-    <div class="grid">${items}</div>
-  </section>`;
+
+function applyFilter(){
+  const q = state.q.trim().toLowerCase();
+  document.querySelectorAll(".card").forEach(el=>{
+    const okS = !state.src || el.dataset.source===state.src;
+    const okQ = !q || (el.dataset.text||"").includes(q);
+    el.classList.toggle("hidden", !(okS&&okQ));
+  });
+  // 收起没有可见卡片的区块
+  document.querySelectorAll(".week, .featured").forEach(sec=>{
+    const any = sec.querySelector(".card:not(.hidden)");
+    sec.classList.toggle("hidden", !any);
+  });
+  const total = document.querySelectorAll(".card:not(.hidden)").length;
+  document.getElementById("noresult").classList.toggle("hidden", total>0);
 }
+
 fetch("data/weekly.json?ts="+Date.now())
   .then(r=>r.json())
   .then(list=>{
-    list = Array.isArray(list)?list.slice():[];
-    // newest week first
-    list.sort((a,b)=> String(b.week||"").localeCompare(String(a.week||"")));
+    list = (Array.isArray(list)?list:[]).slice()
+      .sort((a,b)=>String(b.week||"").localeCompare(String(a.week||"")));
     const feed = document.getElementById("feed");
-    const meta = document.getElementById("meta");
+    const metaEl = document.getElementById("meta");
     if(!list.length){
-      feed.innerHTML = `<div class="empty">还没有数据 —— 等第一次周报跑完就会出现在这里。</div>`;
-      meta.textContent = "尚无数据";
-      return;
+      feed.innerHTML = `<div class="empty">还没有数据——等第一次周报跑完就会出现在这里。</div>`;
+      metaEl.textContent = "尚无数据"; return;
     }
+    const totalItems = list.reduce((n,w)=>n+((w.items||[]).length),0);
     const latest = list[0];
-    const total = list.reduce((n,w)=>n+((w.items||[]).length),0);
-    meta.textContent = `已收录 ${list.length} 周 · 共 ${total} 款产品 · 最近更新 ${latest.generated_at||latest.date_range||latest.week}`;
-    feed.innerHTML = list.map(weekBlock).join("");
+    metaEl.textContent = `已收录 ${list.length} 周 · 共 ${totalItems} 款 · 最近更新 ${latest.generated_at||latest.week}`;
+
+    // 来源筛选条（含"全部"）
+    const sources = [...new Set(list.flatMap(w=>(w.items||[]).map(i=>i.source)).filter(Boolean))];
+    const fbox = document.getElementById("filters");
+    const mk = (label,color,val)=>`<div class="fchip${val===state.src?" on":""}" data-src="${esc(val??"")}">${color?`<span class="dot" style="background:${color}"></span>`:""}${esc(label)}</div>`;
+    fbox.innerHTML = mk("全部",null,null) + sources.map(s=>mk(s,meta(s).color,s)).join("");
+    fbox.addEventListener("click", e=>{
+      const c = e.target.closest(".fchip"); if(!c) return;
+      state.src = c.dataset.src || null;
+      fbox.querySelectorAll(".fchip").forEach(x=>x.classList.toggle("on", (x.dataset.src||"")=== (state.src||"")));
+      applyFilter();
+    });
+
+    // 本周精选（最新一周前 3 条），其余照常
+    const feats = (latest.items||[]).slice(0,FEATURED_N);
+    let html = "";
+    if(feats.length){
+      html += `<section class="featured"><div class="feat-title"><span class="star">✦</span> 本周精选</div>
+        <div class="feat-grid">${feats.map(it=>card(it,true)).join("")}</div></section>`;
+    }
+    list.forEach((w,wi)=>{
+      const items = (wi===0) ? (w.items||[]).slice(FEATURED_N) : (w.items||[]);
+      if(!items.length && wi===0 && !feats.length) return;
+      html += `<section class="week">
+        <div class="week-head"><span class="week-no">${esc(w.week||"")}</span><span class="week-range">${esc(w.date_range||"")}</span></div>
+        <div class="grid">${items.map(it=>card(it,false)).join("")}</div>
+      </section>`;
+    });
+    feed.innerHTML = html;
+
+    document.getElementById("search").addEventListener("input", e=>{ state.q=e.target.value; applyFilter(); });
   })
   .catch(e=>{
     document.getElementById("feed").innerHTML = `<div class="empty">数据加载失败：${esc(e.message)}</div>`;

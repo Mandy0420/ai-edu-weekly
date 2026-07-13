@@ -83,46 +83,6 @@
         "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
         "source": "Hacker News",
         "source_url": "https://news.ycombinator.com/item?id=48872922"
-      },
-      {
-        "name": "AI learning app Gizmo levels up with 13M users and a $22M investment",
-        "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
-        "country": "",
-        "category": "AI + 教育",
-        "one_liner": "Gizmo, an AI-powered learning platform, has attracted more than 13 million users and just secured $22 million in Series A funding.",
-        "why_it_matters": "TechCrunch 报道",
-        "source": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/"
-      },
-      {
-        "name": "Language learning marketplace Preply’s unicorn status embodies Ukrainian resilience",
-        "url": "https://techcrunch.com/2026/01/21/language-learning-marketplace-preplys-unicorn-status-embodies-ukrainian-resilience/",
-        "country": "",
-        "category": "语言学习",
-        "one_liner": "Language learning marketplace Preply is now valued at $1.2 billion after raising a $150 million Series D round that marks a new chapter for the 14-year-old company.",
-        "why_it_matters": "TechCrunch 报道",
-        "source": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/01/21/language-learning-marketplace-preplys-unicorn-status-embodies-ukrainian-resilience/"
-      },
-      {
-        "name": "India’s Emversity doubles valuation as it scales workers AI can’t replace",
-        "url": "https://techcrunch.com/2026/01/14/indias-emversity-doubles-valuation-as-it-scales-workers-ai-cant-replace/",
-        "country": "",
-        "category": "AI + 教育",
-        "one_liner": "Emversity has raised $30 million in a new round as it scales job-ready training in India.",
-        "why_it_matters": "TechCrunch 报道",
-        "source": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/01/14/indias-emversity-doubles-valuation-as-it-scales-workers-ai-cant-replace/"
-      },
-      {
-        "name": "Find Your Grind raises $5M to grow platform empowering students to explore unique career paths",
-        "url": "https://techcrunch.com/2025/11/25/find-your-grind-raises-5m-to-grow-platform-empowering-students-to-explore-unique-career-paths/",
-        "country": "",
-        "category": "AI + 教育",
-        "one_liner": "Nick Gross says that Find Your Grind gives students the tools to explore what careers are out there and what paths suit their strengths, interests, and visions for what they want their futures to look like.",
-        "why_it_matters": "TechCrunch 报道",
-        "source": "TechCrunch",
-        "source_url": "https://techcrunch.com/2025/11/25/find-your-grind-raises-5m-to-grow-platform-empowering-students-to-explore-unique-career-paths/"
       }
     ]
   }

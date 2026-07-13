@@ -8,6 +8,7 @@
   媒体型源（只留发布/融资/上线事件）：EdSurge、TechCrunch EdTech、Class Central
 跨源去重 → 打分 → 取 Top N → 写入 data/weekly.json。由 GitHub Actions 定时调用。
 """
+import os
 import re
 import json
 import time
@@ -16,12 +17,14 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "weekly.json"
 
-DAYS_BACK = 10
+# 时间窗：只收最近 N 天的内容，可用环境变量 WINDOW_DAYS 覆盖（默认 10）
+DAYS_BACK = int(os.environ.get("WINDOW_DAYS", "10"))
 TOP_N = 15
 UA = "Mozilla/5.0 (compatible; ai-edu-weekly/1.0)"
 
@@ -49,6 +52,64 @@ MEDIA_EVENT_WORDS = ["launch", "launches", "launched", "introduc", "unveil",
                      "announces", "goes live", "beta", "series a", "series b"]
 NEWSY_DOMAINS = ["pnas.org", "ieee.org", "nature.com", "sciencedirect.com",
                  "arxiv.org", "uu.nl", ".edu/"]
+
+
+# 国家/地区识别：只在有明确信号时标注，识别不到就留空（不瞎猜）
+COUNTRY_TEXT = [
+    (["india", "indian", "bengaluru", "bangalore", "mumbai", "new delhi"], "印度"),
+    (["u.k.", "britain", "british", "london", "england", "scotland"], "英国"),
+    (["united states", "u.s.", " american ", "silicon valley", "san francisco"], "美国"),
+    (["germany", "german ", "berlin", "munich"], "德国"),
+    (["france", "french ", "paris"], "法国"),
+    (["singapore", "singaporean"], "新加坡"),
+    (["canada", "canadian", "toronto", "vancouver"], "加拿大"),
+    (["australia", "australian", "sydney", "melbourne"], "澳大利亚"),
+    (["japan", "japanese", "tokyo"], "日本"),
+    (["korea", "korean", "seoul"], "韩国"),
+    (["israel", "israeli", "tel aviv"], "以色列"),
+    (["netherlands", "dutch", "amsterdam"], "荷兰"),
+    (["brazil", "brazilian"], "巴西"),
+    (["spain", "spanish ", "madrid", "barcelona"], "西班牙"),
+]
+COUNTRY_TLD = {".uk": "英国", ".in": "印度", ".de": "德国", ".fr": "法国",
+               ".jp": "日本", ".sg": "新加坡", ".ca": "加拿大", ".au": "澳大利亚",
+               ".nl": "荷兰", ".br": "巴西", ".es": "西班牙", ".il": "以色列"}
+
+
+def _country(text, url):
+    blob = f" {(text or '').lower()} "
+    for kws, name in COUNTRY_TEXT:
+        if any(k in blob for k in kws):
+            return name
+    netloc = urlparse(url or "").netloc.lower()
+    for tld, name in COUNTRY_TLD.items():
+        if netloc.endswith(tld):
+            return name
+    return ""
+
+
+def _parse_date(s):
+    if not s:
+        return None
+    s = s.strip()
+    try:
+        return parsedate_to_datetime(s)          # RFC822（RSS pubDate）
+    except Exception:
+        pass
+    try:
+        return datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))  # ISO（Atom）
+    except Exception:
+        return None
+
+
+def _within_window(dt):
+    """无日期→保留（宁可多不可漏）；有日期→只保留窗口内。"""
+    if dt is None:
+        return True
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    age = datetime.datetime.now(datetime.timezone.utc) - dt
+    return age.days <= DAYS_BACK
 
 
 def _has(text, words):
@@ -117,7 +178,7 @@ def parse_feed(raw):
     for el in root.iter():
         if _ln(el.tag) not in ("item", "entry"):
             continue
-        title = link = summary = ""
+        title = link = summary = date = ""
         for c in el:
             name = _ln(c.tag)
             if name == "title" and not title:
@@ -126,8 +187,11 @@ def parse_feed(raw):
                 link = (c.get("href") or c.text or "").strip()
             elif name in ("description", "summary", "content") and not summary:
                 summary = re.sub(r"<[^>]+>", "", c.text or "")[:300].strip()
+            elif name in ("pubdate", "published", "updated", "date") and not date:
+                date = (c.text or "").strip()
         if title:
-            out.append({"title": title, "link": link, "summary": summary})
+            out.append({"title": title, "link": link, "summary": summary,
+                        "date": _parse_date(date)})
     return out
 
 
@@ -167,7 +231,9 @@ def src_producthunt():
     raw = _get("https://www.producthunt.com/feed")
     out = []
     for e in parse_feed(raw or b""):
-        title, blob = e["title"], f"{e['title']} {e['summary']}"
+        if not _within_window(e.get("date")):
+            continue
+        title = e["title"]
         if not _relevant(title, e["summary"]):
             continue
         out.append(_item(title, e["link"] or "", e["summary"] or title,
@@ -200,6 +266,8 @@ def src_reddit():
     raw = _get("https://www.reddit.com/r/edtech/.rss?limit=25")
     out = []
     for e in parse_feed(raw or b""):
+        if not _within_window(e.get("date")):
+            continue
         title = e["title"]
         if not _has(title, AI_WORDS):        # r/edtech 本身是教育，只要沾 AI
             continue
@@ -211,16 +279,22 @@ def src_reddit():
 
 
 def src_media():
+    # (名称, 地址, 是否教育垂直源) —— 教育垂直源"教育"已隐含，只需沾 AI；
+    # 综合科技源(TC 主 feed)还需额外沾"教育"关键词。TC 的 edtech 标签 feed 已停更(僵尸)，改用主 feed。
     feeds = [
-        ("EdSurge", "https://www.edsurge.com/articles_rss"),
-        ("TechCrunch", "https://techcrunch.com/tag/edtech/feed/"),
-        ("Class Central", "https://www.classcentral.com/report/feed/"),
+        ("EdSurge", "https://www.edsurge.com/articles_rss", True),
+        ("Class Central", "https://www.classcentral.com/report/feed/", True),
+        ("TechCrunch", "https://techcrunch.com/feed/", False),
     ]
     out = []
-    for name, url in feeds:
+    for name, url, edu_native in feeds:
         for e in parse_feed(_get(url) or b""):
+            if not _within_window(e.get("date")):
+                continue
             title, blob = e["title"], f"{e['title']} {e['summary']}"
             if not _has(blob, AI_WORDS):
+                continue
+            if not edu_native and not _has(blob, EDU_WORDS):
                 continue
             if not _has(blob, MEDIA_EVENT_WORDS):   # 只留发布/融资/上线事件
                 continue
@@ -235,7 +309,7 @@ def _item(name, url, one_liner, why, source, source_url, score):
     return {
         "name": name.strip(),
         "url": url,
-        "country": "",
+        "country": _country(f"{name} {one_liner}", url),
         "category": _category(name),
         "one_liner": one_liner.strip(),
         "why_it_matters": why,
