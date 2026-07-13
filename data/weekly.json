@@ -1,29 +1,128 @@
 [
   {
-    "week": "2026-W28",
-    "date_range": "示例数据（首次真实运行后会被替换）",
-    "generated_at": "示例",
-    "sample": true,
+    "week": "2026-W29",
+    "date_range": "2026-07-13 ~ 2026-07-19",
+    "generated_at": "2026-07-13",
     "items": [
       {
-        "name": "（示例）某海外 AI 助教产品",
-        "url": "",
-        "country": "美国",
-        "category": "AI 助教 / 作业批改",
-        "one_liner": "一句话说清它是做什么的、给谁用。",
-        "why_it_matters": "从产品经理视角，它值得关注的点：切了什么场景、和现有方案差在哪、商业模式或增长信号。",
-        "source": "Product Hunt",
-        "source_url": ""
+        "name": "Building a real-time AI tutor for 5-year-olds",
+        "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Building a real-time AI tutor for 5-year-olds",
+        "why_it_matters": "Hacker News 热度：153 分 · 403 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48852199"
       },
       {
-        "name": "（示例）某语言学习 AI 陪练",
-        "url": "",
-        "country": "英国",
-        "category": "语言学习 / 口语陪练",
-        "one_liner": "示例卡片，展示看板长什么样。",
-        "why_it_matters": "真实运行后，这里会是 Agent 每周筛出的 6–8 款新品。",
+        "name": "Show HN: Fenzo AI – Interactive Micro-courses on any topic",
+        "url": "https://fenzo.ai/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Show HN: Fenzo AI – Interactive Micro-courses on any topic",
+        "why_it_matters": "Hacker News 热度：3 分 · 4 评论",
         "source": "Hacker News",
-        "source_url": ""
+        "source_url": "https://news.ycombinator.com/item?id=48821776"
+      },
+      {
+        "name": "Show HN: Building My Own Public HTML Library for Async Learning",
+        "url": "https://armoredmeatball.substack.com/p/building-my-own-public-html-library",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Building My Own Public HTML Library for Async Learning",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48817866"
+      },
+      {
+        "name": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+        "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+        "why_it_matters": "Hacker News 热度：180 分 · 114 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48796817"
+      },
+      {
+        "name": "The AI Compass Quiz",
+        "url": "https://bambamramfan.github.io/ai-compass/",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "The AI Compass Quiz",
+        "why_it_matters": "Hacker News 热度：36 分 · 17 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48798605"
+      },
+      {
+        "name": "Fiszki flashcards without an app: your AI quizzes you, FSRS keeps score",
+        "url": "https://fiszki.zuzanow.pl/login",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Fiszki flashcards without an app: your AI quizzes you, FSRS keeps score",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48829690"
+      },
+      {
+        "name": "EdgeBench: Unveiling scaling laws of (AI) learning from real-world environments",
+        "url": "https://github.com/ByteDance-Seed/EdgeBench",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "EdgeBench: Unveiling scaling laws of (AI) learning from real-world environments",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48801308"
+      },
+      {
+        "name": "Learning Multi-Agent Coordination via Sheaf-ADMM",
+        "url": "https://pub.sakana.ai/sheaf-admm/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Learning Multi-Agent Coordination via Sheaf-ADMM",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48792516"
+      },
+      {
+        "name": "AI Language Tutor That Answers a Phone Call",
+        "url": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-language-learning-phone-tutor-python",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "AI Language Tutor That Answers a Phone Call",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48833834"
+      },
+      {
+        "name": "Learn Faster with Your Personal AI Teacher",
+        "url": "https://aischoolbuilder.com/school/school-1786",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Learn Faster with Your Personal AI Teacher",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48800410"
+      },
+      {
+        "name": "Teaching AI to Run with the Turbines",
+        "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching AI to Run with the Turbines",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48847710"
+      },
+      {
+        "name": "An educational lab of AI agent architectures",
+        "url": "https://github.com/Rudnik-Ilia/Agents-Sandbox",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "An educational lab of AI agent architectures",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48872922"
       }
     ]
   }
