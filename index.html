@@ -7,9 +7,9 @@
 <style>
   :root{
     --bg:#06060c; --ink:#f3f4fb; --sub:#9aa0bc; --line:rgba(255,255,255,.09);
-    --card:rgba(30,20,30,.55);
-    --grad:linear-gradient(120deg,#ff2e8b,#ff4d6d,#ff6a3d,#ffab2e);
-    --glow:255,77,109;
+    --card:rgba(22,22,40,.55);
+    --grad:linear-gradient(120deg,#c14dff,#7c5cff,#3b82f6,#22e0ff);
+    --glow:139,92,246;
   }
   *{box-sizing:border-box}
   html,body{background:var(--bg);}
@@ -21,9 +21,9 @@
   /* 极光背景 + 微弱科技网格 */
   body::before{content:""; position:fixed; inset:0; z-index:-2;
     background:
-      radial-gradient(58vw 58vw at 10% -10%, rgba(255,46,139,.30), transparent 60%),
-      radial-gradient(52vw 52vw at 98% 6%, rgba(255,171,46,.22), transparent 60%),
-      radial-gradient(60vw 55vw at 50% 115%, rgba(255,90,60,.30), transparent 62%),
+      radial-gradient(58vw 58vw at 10% -10%, rgba(168,85,247,.30), transparent 60%),
+      radial-gradient(52vw 52vw at 98% 6%, rgba(34,224,255,.24), transparent 60%),
+      radial-gradient(60vw 55vw at 50% 115%, rgba(99,102,241,.28), transparent 62%),
       var(--bg);
     animation:drift 18s ease-in-out infinite alternate;}
   body::after{content:""; position:fixed; inset:0; z-index:-1; opacity:.45;
@@ -37,7 +37,7 @@
   .wrap{max-width:960px; margin:0 auto; padding:56px 24px 100px;}
   header.top{margin-bottom:22px;}
   .kicker{font:600 12.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.28em;
-    text-transform:uppercase; color:#ffb04d;}
+    text-transform:uppercase; color:#5ad7ff;}
   h1{font-size:38px; line-height:1.14; margin:12px 0 10px; font-weight:800; letter-spacing:-.02em;
     background:var(--grad); background-size:220% auto; -webkit-background-clip:text; background-clip:text;
     color:transparent; animation:sheen 9s linear infinite;}
@@ -85,7 +85,7 @@
     box-shadow:0 14px 46px rgba(0,0,0,.55), 0 0 32px color-mix(in srgb,var(--sc,#7c3aed) 26%, transparent);}
   .card h3{margin:0; font-size:17px; font-weight:700; line-height:1.35;}
   .card h3 a{color:var(--ink); text-decoration:none;}
-  .card h3 a:hover{color:#ffbca0;}
+  .card h3 a:hover{color:#d6c3ff;}
   .chips{display:flex; flex-wrap:wrap; gap:7px; align-items:center;}
   .badge{font-size:11.5px; font-weight:700; padding:3px 10px; border-radius:999px;
     display:inline-flex; align-items:center; gap:6px; color:var(--sc,#a78bfa);
@@ -97,7 +97,7 @@
   .one{font-size:14.5px; color:#e7e9f5;}
   .why{font-size:13px; color:var(--sub);}
   .src{margin-top:1px; font-size:12px;}
-  .src a{color:#ff9e6b; text-decoration:none;}
+  .src a{color:#67c6ff; text-decoration:none;}
   .src a:hover{text-decoration:underline;}
 
   .featpill{align-self:flex-start; font-size:11px; font-weight:800; letter-spacing:.02em; color:#fff;
