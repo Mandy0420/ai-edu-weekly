@@ -2,18 +2,8 @@
   {
     "week": "2026-W29",
     "date_range": "2026-07-13 ~ 2026-07-19",
-    "generated_at": "2026-07-13",
+    "generated_at": "2026-07-14",
     "items": [
-      {
-        "name": "Building a real-time AI tutor for 5-year-olds",
-        "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-        "country": "",
-        "category": "AI 助教",
-        "one_liner": "Building a real-time AI tutor for 5-year-olds",
-        "why_it_matters": "Hacker News 热度：153 分 · 403 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48852199"
-      },
       {
         "name": "Show HN: Fenzo AI – Interactive Micro-courses on any topic",
         "url": "https://fenzo.ai/",
@@ -35,34 +25,44 @@
         "source_url": "https://news.ycombinator.com/item?id=48817866"
       },
       {
-        "name": "The AI Compass Quiz",
-        "url": "https://bambamramfan.github.io/ai-compass/",
+        "name": "Building a real-time AI tutor for 5-year-olds",
+        "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
         "country": "",
-        "category": "作业 / 批改 / 测评",
-        "one_liner": "The AI Compass Quiz",
-        "why_it_matters": "Hacker News 热度：36 分 · 17 评论",
+        "category": "AI 助教",
+        "one_liner": "Building a real-time AI tutor for 5-year-olds",
+        "why_it_matters": "Hacker News 热度：153 分 · 403 评论",
         "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48798605"
+        "source_url": "https://news.ycombinator.com/item?id=48852199"
       },
       {
-        "name": "Fiszki flashcards without an app: your AI quizzes you, FSRS keeps score",
-        "url": "https://fiszki.zuzanow.pl/login",
-        "country": "",
-        "category": "语言学习",
-        "one_liner": "Fiszki flashcards without an app: your AI quizzes you, FSRS keeps score",
-        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48829690"
-      },
-      {
-        "name": "Learning Multi-Agent Coordination via Sheaf-ADMM",
-        "url": "https://pub.sakana.ai/sheaf-admm/",
+        "name": "deepseek-ai/DeepSpec",
+        "url": "https://github.com/deepseek-ai/DeepSpec",
         "country": "",
         "category": "AI + 教育",
-        "one_liner": "Learning Multi-Agent Coordination via Sheaf-ADMM",
-        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "one_liner": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+        "why_it_matters": "GitHub · ⭐ 6612",
+        "source": "GitHub",
+        "source_url": "https://github.com/deepseek-ai/DeepSpec"
+      },
+      {
+        "name": "Kulaxyz/self-learning-skills",
+        "url": "https://github.com/Kulaxyz/self-learning-skills",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+        "why_it_matters": "GitHub · ⭐ 849",
+        "source": "GitHub",
+        "source_url": "https://github.com/Kulaxyz/self-learning-skills"
+      },
+      {
+        "name": "I built an AI strength coach because I wanted my training backed by real studies",
+        "url": "https://github.com/clementrx/Performance-agent/tree/main",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "I built an AI strength coach because I wanted my training backed by real studies",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
         "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48792516"
+        "source_url": "https://news.ycombinator.com/item?id=48879889"
       },
       {
         "name": "Learn Faster with Your Personal AI Teacher",
@@ -85,24 +85,44 @@
         "source_url": "https://news.ycombinator.com/item?id=48872922"
       },
       {
-        "name": "AI as Search Engine and Printing Press Aid: Local Education Data Munging",
-        "url": "https://middlesexgazette.org/news/vermonts-yardstick-moved/",
+        "name": "AI learning app Gizmo levels up with 13M users and a $22M investment",
+        "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
         "country": "",
         "category": "AI + 教育",
-        "one_liner": "AI as Search Engine and Printing Press Aid: Local Education Data Munging",
-        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48892925"
+        "one_liner": "Gizmo, an AI-powered learning platform, has attracted more than 13 million users and just secured $22 million in Series A funding.",
+        "why_it_matters": "TechCrunch 报道",
+        "source": "TechCrunch",
+        "source_url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/"
       },
       {
-        "name": "Food for Agile Thought 552: AI Creates Jobs? Overthinkers, Measuring ≠ Learning",
-        "url": "https://age-of-product.com/food-agile-thought-552-ai-creates-jobs/",
+        "name": "Language learning marketplace Preply’s unicorn status embodies Ukrainian resilience",
+        "url": "https://techcrunch.com/2026/01/21/language-learning-marketplace-preplys-unicorn-status-embodies-ukrainian-resilience/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Language learning marketplace Preply is now valued at $1.2 billion after raising a $150 million Series D round that marks a new chapter for the 14-year-old company.",
+        "why_it_matters": "TechCrunch 报道",
+        "source": "TechCrunch",
+        "source_url": "https://techcrunch.com/2026/01/21/language-learning-marketplace-preplys-unicorn-status-embodies-ukrainian-resilience/"
+      },
+      {
+        "name": "India’s Emversity doubles valuation as it scales workers AI can’t replace",
+        "url": "https://techcrunch.com/2026/01/14/indias-emversity-doubles-valuation-as-it-scales-workers-ai-cant-replace/",
         "country": "",
         "category": "AI + 教育",
-        "one_liner": "Food for Agile Thought 552: AI Creates Jobs? Overthinkers, Measuring ≠ Learning",
-        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48860662"
+        "one_liner": "Emversity has raised $30 million in a new round as it scales job-ready training in India.",
+        "why_it_matters": "TechCrunch 报道",
+        "source": "TechCrunch",
+        "source_url": "https://techcrunch.com/2026/01/14/indias-emversity-doubles-valuation-as-it-scales-workers-ai-cant-replace/"
+      },
+      {
+        "name": "Find Your Grind raises $5M to grow platform empowering students to explore unique career paths",
+        "url": "https://techcrunch.com/2025/11/25/find-your-grind-raises-5m-to-grow-platform-empowering-students-to-explore-unique-career-paths/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Nick Gross says that Find Your Grind gives students the tools to explore what careers are out there and what paths suit their strengths, interests, and visions for what they want their futures to look like.",
+        "why_it_matters": "TechCrunch 报道",
+        "source": "TechCrunch",
+        "source_url": "https://techcrunch.com/2025/11/25/find-your-grind-raises-5m-to-grow-platform-empowering-students-to-explore-unique-career-paths/"
       }
     ]
   }

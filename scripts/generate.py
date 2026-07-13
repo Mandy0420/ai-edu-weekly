@@ -2,14 +2,19 @@
 # -*- coding: utf-8 -*-
 """
 每周自动生成「国外 AI+教育新品」数据（免费版，无需任何 API Key）。
-数据源：Hacker News（Algolia 免费 API），关键词筛「AI × 教育」相关的新帖，
-按热度排序取 Top N，写入 data/weekly.json。由 GitHub Actions 定时调用。
+
+多源采集：
+  产品型源（走"真产品"过滤）：Hacker News、Product Hunt、GitHub 搜索、Reddit r/edtech
+  媒体型源（只留发布/融资/上线事件）：EdSurge、TechCrunch EdTech、Class Central
+跨源去重 → 打分 → 取 Top N → 写入 data/weekly.json。由 GitHub Actions 定时调用。
 """
+import re
 import json
 import time
 import datetime
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 from pathlib import Path
 
@@ -17,50 +22,47 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "weekly.json"
 
 DAYS_BACK = 10
-TOP_N = 12
+TOP_N = 15
+UA = "Mozilla/5.0 (compatible; ai-edu-weekly/1.0)"
 
-# 组合查询：既沾 AI 又沾教育，结果本身就比较对口
-QUERIES = [
-    "AI tutor", "AI teacher", "AI education", "AI learning",
-    "language learning AI", "AI grading", "AI classroom",
-    "edtech AI", "AI course", "study AI", "AI quiz", "AI homework",
-]
-
-# 关键词桶（用于判定相关性 + 粗分类）
+# ---------- 关键词 ----------
 EDU_WORDS = ["education", "educational", "learn", "learning", "tutor", "teacher",
              "teaching", "student", "course", "classroom", "edtech", "study",
              "school", "exam", "quiz", "homework", "language", "curriculum",
-             "flashcard", "textbook", "lecture", "grading"]
+             "flashcard", "textbook", "lecture", "grading", "literacy", "training"]
 AI_WORDS = ["ai", "a.i", "gpt", "llm", "model", "agent", "chatbot", "ml",
             "neural", "machine learning", "genai", "copilot"]
-
-# 偏"研究/新闻"而非"产品"的站点，降权
-NEWSY_DOMAINS = ["pnas.org", "ieee.org", "nature.com", "sciencedirect.com",
-                 "arxiv.org", "theregister.com", "sfgate.com", "nytimes.com",
-                 "thenewstack.io", "northwestern.edu", ".edu/", "uu.nl",
-                 "washingtonpost.com", "theguardian.com", "reuters.com"]
-
-
-# "真产品/发布"信号词
 LAUNCH_WORDS = ["show hn", "launch", "introducing", "we built", "i built",
                 "built a", "released", "now available", "app", "tool",
                 "platform", "startup", "made a", "created a", "meet "]
-# "研究/评论/观点"信号词（这些直接排除）
 NON_PRODUCT_WORDS = ["study", "research", "paper", "evidence", "debunk",
                      "banning", "finds", "warns", "opinion", " vs ", "vs.",
                      "should we", "the future of", "survey", "report",
                      "analysis", "scaling laws", "benchmark", "why ai",
-                     "is ai", "does ai", "will ai"]
+                     "is ai", "does ai", "will ai", "multi-agent coordination",
+                     "food for", "roundup", "newsletter", "printing press",
+                     "sheaf", "admm"]
+# 媒体型源里"值得收"的事件信号
+MEDIA_EVENT_WORDS = ["launch", "launches", "launched", "introduc", "unveil",
+                     "debut", "release", "raises", "raised", "funding", "million",
+                     "acquir", "rolls out", "new app", "new tool", "new platform",
+                     "announces", "goes live", "beta", "series a", "series b"]
+NEWSY_DOMAINS = ["pnas.org", "ieee.org", "nature.com", "sciencedirect.com",
+                 "arxiv.org", "uu.nl", ".edu/"]
 
 
 def _has(text, words):
-    t = text.lower()
+    t = (text or "").lower()
     return any(w in t for w in words)
 
 
+def _relevant(title, desc=""):
+    blob = f"{title} {desc}"
+    return _has(blob, EDU_WORDS) and _has(blob, AI_WORDS)
+
+
 def _is_product(title, url):
-    """判断这条更像'真产品/发布'还是'研究/评论文章'。"""
-    t = title.lower()
+    t = (title or "").lower()
     u = (url or "").lower()
     if t.startswith("show hn"):
         return True
@@ -70,31 +72,16 @@ def _is_product(title, url):
         return False
     if any(w in t for w in LAUNCH_WORDS):
         return True
-    # 兜底：链接像"产品主页"（域名根/短路径、非文章后缀）更可能是产品
     p = urlparse(u)
     path = p.path.strip("/")
-    if p.netloc and path.count("/") <= 1 and not path.lower().endswith((".pdf", ".html", ".htm", ".php", ".aspx")):
+    if p.netloc and path.count("/") <= 1 and not path.lower().endswith(
+            (".pdf", ".html", ".htm", ".php", ".aspx")):
         return True
     return False
 
 
-def _score(title, url, points):
-    """偏向真实产品/发布：Show HN 和产品站加分，纯新闻/论文降权。"""
-    s = float(points or 0)
-    t = title.lower()
-    if t.startswith("show hn"):
-        s += 150
-    if any(w in t for w in ["launch", "introducing", "built", "we built", "app", "tool", "platform"]):
-        s += 25
-    if any(d in (url or "").lower() for d in NEWSY_DOMAINS):
-        s -= 120
-    if any(w in t for w in ["study", "research", "paper", "evidence", "banning", "debunk"]):
-        s -= 60
-    return s
-
-
 def _category(title):
-    t = title.lower()
+    t = (title or "").lower()
     if any(w in t for w in ["language", "speaking", "vocab", "flashcard"]):
         return "语言学习"
     if any(w in t for w in ["grading", "homework", "exam", "quiz", "assessment"]):
@@ -106,55 +93,182 @@ def _category(title):
     return "AI + 教育"
 
 
-def fetch_hn():
-    since = int(time.time()) - DAYS_BACK * 86400
-    seen = {}
-    seen_titles = set()
-    for q in QUERIES:
-        params = urllib.parse.urlencode({
-            "query": q,
-            "tags": "story",
-            "numericFilters": f"created_at_i>{since}",
-            "hitsPerPage": "30",
-        })
-        url = f"https://hn.algolia.com/api/v1/search?{params}"
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "ai-edu-weekly/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                data = json.load(r)
-        except Exception as e:
-            print(f"  查询 '{q}' 失败：{e}")
+def _get(url, timeout=25):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except Exception as e:
+        print(f"  取 {url[:50]}… 失败：{e}")
+        return None
+
+
+def _ln(tag):  # 去掉 XML 命名空间，取本地名
+    return tag.split("}")[-1].lower()
+
+
+def parse_feed(raw):
+    """解析 RSS(<item>) 或 Atom(<entry>)，返回 [{title, link, summary}]。"""
+    out = []
+    try:
+        root = ET.fromstring(raw)
+    except Exception:
+        return out
+    for el in root.iter():
+        if _ln(el.tag) not in ("item", "entry"):
             continue
-        for h in data.get("hits", []):
-            title = (h.get("title") or "").strip()
-            oid = h.get("objectID")
-            if not title or not oid:
+        title = link = summary = ""
+        for c in el:
+            name = _ln(c.tag)
+            if name == "title" and not title:
+                title = (c.text or "").strip()
+            elif name == "link" and not link:
+                link = (c.get("href") or c.text or "").strip()
+            elif name in ("description", "summary", "content") and not summary:
+                summary = re.sub(r"<[^>]+>", "", c.text or "")[:300].strip()
+        if title:
+            out.append({"title": title, "link": link, "summary": summary})
+    return out
+
+
+# ---------- 各数据源 ----------
+def src_hackernews():
+    since = int(time.time()) - DAYS_BACK * 86400
+    queries = ["AI tutor", "AI teacher", "AI education", "AI learning",
+               "language learning AI", "AI grading", "AI course", "study AI"]
+    items = {}
+    for q in queries:
+        params = urllib.parse.urlencode({
+            "query": q, "tags": "story",
+            "numericFilters": f"created_at_i>{since}", "hitsPerPage": "30"})
+        raw = _get(f"https://hn.algolia.com/api/v1/search?{params}")
+        if not raw:
+            continue
+        for h in json.loads(raw).get("hits", []):
+            title, oid = (h.get("title") or "").strip(), h.get("objectID")
+            if not title or not oid or oid in items:
                 continue
-            # 相关性：标题里要沾教育，且沾 AI
-            if not (_has(title, EDU_WORDS) and _has(title, AI_WORDS)):
+            if not _relevant(title):
                 continue
-            # 只保留"真产品/发布"，挡掉研究/评论/观点
-            if not _is_product(title, h.get("url")):
+            url = h.get("url") or f"https://news.ycombinator.com/item?id={oid}"
+            if not _is_product(title, url):
                 continue
-            norm = " ".join(title.lower().split())
-            if oid in seen or norm in seen_titles:
+            pts = h.get("points", 0) or 0
+            score = 80 + min(pts, 300) / 3
+            if title.lower().startswith("show hn"):
+                score += 150
+            items[oid] = _item(title, url, title,
+                               f"Hacker News 热度：{pts} 分 · {h.get('num_comments', 0)} 评论",
+                               "Hacker News", f"https://news.ycombinator.com/item?id={oid}", score)
+    return list(items.values())
+
+
+def src_producthunt():
+    raw = _get("https://www.producthunt.com/feed")
+    out = []
+    for e in parse_feed(raw or b""):
+        title, blob = e["title"], f"{e['title']} {e['summary']}"
+        if not _relevant(title, e["summary"]):
+            continue
+        out.append(_item(title, e["link"] or "", e["summary"] or title,
+                         "Product Hunt 当日新品", "Product Hunt", e["link"] or "", 100))
+    return out
+
+
+def src_github():
+    created = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
+    q = f'(education OR edtech OR learning OR tutor OR teaching) AI in:name,description created:>={created}'
+    url = "https://api.github.com/search/repositories?" + urllib.parse.urlencode(
+        {"q": q, "sort": "stars", "order": "desc", "per_page": "20"})
+    raw = _get(url)
+    out = []
+    if not raw:
+        return out
+    for r in json.loads(raw).get("items", []):
+        name = r.get("name") or ""
+        desc = r.get("description") or ""
+        if not _relevant(f"{name} {desc}", desc):
+            continue
+        stars = r.get("stargazers_count", 0) or 0
+        out.append(_item(r.get("full_name") or name, r.get("html_url") or "",
+                         desc or name, f"GitHub · ⭐ {stars}", "GitHub",
+                         r.get("html_url") or "", 85 + min(stars, 800) / 20))
+    return out
+
+
+def src_reddit():
+    raw = _get("https://www.reddit.com/r/edtech/.rss?limit=25")
+    out = []
+    for e in parse_feed(raw or b""):
+        title = e["title"]
+        if not _has(title, AI_WORDS):        # r/edtech 本身是教育，只要沾 AI
+            continue
+        if not _is_product(title, e["link"]):
+            continue
+        out.append(_item(title, e["link"] or "", title, "Reddit r/edtech",
+                         "Reddit", e["link"] or "", 45))
+    return out
+
+
+def src_media():
+    feeds = [
+        ("EdSurge", "https://www.edsurge.com/articles_rss"),
+        ("TechCrunch", "https://techcrunch.com/tag/edtech/feed/"),
+        ("Class Central", "https://www.classcentral.com/report/feed/"),
+    ]
+    out = []
+    for name, url in feeds:
+        for e in parse_feed(_get(url) or b""):
+            title, blob = e["title"], f"{e['title']} {e['summary']}"
+            if not _has(blob, AI_WORDS):
                 continue
-            seen_titles.add(norm)
-            seen[oid] = {
-                "name": title,
-                "url": h.get("url") or f"https://news.ycombinator.com/item?id={oid}",
-                "country": "",
-                "category": _category(title),
-                "one_liner": title,
-                "why_it_matters": f"Hacker News 热度：{h.get('points', 0)} 分 · {h.get('num_comments', 0)} 评论",
-                "source": "Hacker News",
-                "source_url": f"https://news.ycombinator.com/item?id={oid}",
-                "_score": _score(title, h.get("url"), h.get("points", 0)),
-            }
-    items = sorted(seen.values(), key=lambda x: x["_score"], reverse=True)[:TOP_N]
-    for it in items:
+            if not _has(blob, MEDIA_EVENT_WORDS):   # 只留发布/融资/上线事件
+                continue
+            if _has(title, NON_PRODUCT_WORDS):       # 挡掉观点/报告/研究类
+                continue
+            out.append(_item(title, e["link"] or "", e["summary"] or title,
+                             f"{name} 报道", name, e["link"] or "", 55))
+    return out
+
+
+def _item(name, url, one_liner, why, source, source_url, score):
+    return {
+        "name": name.strip(),
+        "url": url,
+        "country": "",
+        "category": _category(name),
+        "one_liner": one_liner.strip(),
+        "why_it_matters": why,
+        "source": source,
+        "source_url": source_url,
+        "_score": float(score),
+    }
+
+
+def collect():
+    all_items = []
+    for fn in (src_hackernews, src_producthunt, src_github, src_reddit, src_media):
+        try:
+            got = fn()
+            print(f"  {fn.__name__}: {len(got)} 条")
+            all_items.extend(got)
+        except Exception as e:
+            print(f"  {fn.__name__} 出错：{e}")
+    # 跨源去重（按标题 + 按链接）
+    seen_t, seen_u, uniq = set(), set(), []
+    for it in sorted(all_items, key=lambda x: x["_score"], reverse=True):
+        tk = " ".join(it["name"].lower().split())
+        uk = (it["url"] or "").split("?")[0].rstrip("/").lower()
+        if tk in seen_t or (uk and uk in seen_u):
+            continue
+        seen_t.add(tk)
+        if uk:
+            seen_u.add(uk)
+        uniq.append(it)
+    top = uniq[:TOP_N]
+    for it in top:
         it.pop("_score", None)
-    return items
+    return top
 
 
 def load_existing():
@@ -173,7 +287,7 @@ def main():
     sunday = monday + datetime.timedelta(days=6)
     week_label = f"{iso_year}-W{iso_week:02d}"
 
-    items = fetch_hn()
+    items = collect()
     if not items:
         print("本周没抓到合适的新品，跳过写入。")
         return
@@ -188,11 +302,10 @@ def main():
     })
 
     DATA_FILE.write_text(
-        json.dumps(weeks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+        json.dumps(weeks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"✅ {week_label} 写入 {len(items)} 条：")
     for it in items:
-        print(f"  - {it['name'][:70]}  [{it['category']}]")
+        print(f"  - [{it['source']}] {it['name'][:60]}")
 
 
 if __name__ == "__main__":
