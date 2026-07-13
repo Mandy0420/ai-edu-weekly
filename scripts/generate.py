@@ -10,6 +10,7 @@ import time
 import datetime
 import urllib.parse
 import urllib.request
+from urllib.parse import urlparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,9 +41,41 @@ NEWSY_DOMAINS = ["pnas.org", "ieee.org", "nature.com", "sciencedirect.com",
                  "washingtonpost.com", "theguardian.com", "reuters.com"]
 
 
+# "真产品/发布"信号词
+LAUNCH_WORDS = ["show hn", "launch", "introducing", "we built", "i built",
+                "built a", "released", "now available", "app", "tool",
+                "platform", "startup", "made a", "created a", "meet "]
+# "研究/评论/观点"信号词（这些直接排除）
+NON_PRODUCT_WORDS = ["study", "research", "paper", "evidence", "debunk",
+                     "banning", "finds", "warns", "opinion", " vs ", "vs.",
+                     "should we", "the future of", "survey", "report",
+                     "analysis", "scaling laws", "benchmark", "why ai",
+                     "is ai", "does ai", "will ai"]
+
+
 def _has(text, words):
     t = text.lower()
     return any(w in t for w in words)
+
+
+def _is_product(title, url):
+    """判断这条更像'真产品/发布'还是'研究/评论文章'。"""
+    t = title.lower()
+    u = (url or "").lower()
+    if t.startswith("show hn"):
+        return True
+    if any(d in u for d in NEWSY_DOMAINS):
+        return False
+    if any(w in t for w in NON_PRODUCT_WORDS):
+        return False
+    if any(w in t for w in LAUNCH_WORDS):
+        return True
+    # 兜底：链接像"产品主页"（域名根/短路径、非文章后缀）更可能是产品
+    p = urlparse(u)
+    path = p.path.strip("/")
+    if p.netloc and path.count("/") <= 1 and not path.lower().endswith((".pdf", ".html", ".htm", ".php", ".aspx")):
+        return True
+    return False
 
 
 def _score(title, url, points):
@@ -99,6 +132,9 @@ def fetch_hn():
                 continue
             # 相关性：标题里要沾教育，且沾 AI
             if not (_has(title, EDU_WORDS) and _has(title, AI_WORDS)):
+                continue
+            # 只保留"真产品/发布"，挡掉研究/评论/观点
+            if not _is_product(title, h.get("url")):
                 continue
             norm = " ".join(title.lower().split())
             if oid in seen or norm in seen_titles:

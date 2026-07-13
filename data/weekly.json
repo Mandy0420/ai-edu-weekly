@@ -35,16 +35,6 @@
         "source_url": "https://news.ycombinator.com/item?id=48817866"
       },
       {
-        "name": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
-        "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
-        "country": "",
-        "category": "AI 助教",
-        "one_liner": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
-        "why_it_matters": "Hacker News 热度：180 分 · 114 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48796817"
-      },
-      {
         "name": "The AI Compass Quiz",
         "url": "https://bambamramfan.github.io/ai-compass/",
         "country": "",
@@ -65,16 +55,6 @@
         "source_url": "https://news.ycombinator.com/item?id=48829690"
       },
       {
-        "name": "EdgeBench: Unveiling scaling laws of (AI) learning from real-world environments",
-        "url": "https://github.com/ByteDance-Seed/EdgeBench",
-        "country": "",
-        "category": "AI + 教育",
-        "one_liner": "EdgeBench: Unveiling scaling laws of (AI) learning from real-world environments",
-        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48801308"
-      },
-      {
         "name": "Learning Multi-Agent Coordination via Sheaf-ADMM",
         "url": "https://pub.sakana.ai/sheaf-admm/",
         "country": "",
@@ -83,16 +63,6 @@
         "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
         "source": "Hacker News",
         "source_url": "https://news.ycombinator.com/item?id=48792516"
-      },
-      {
-        "name": "AI Language Tutor That Answers a Phone Call",
-        "url": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-language-learning-phone-tutor-python",
-        "country": "",
-        "category": "语言学习",
-        "one_liner": "AI Language Tutor That Answers a Phone Call",
-        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48833834"
       },
       {
         "name": "Learn Faster with Your Personal AI Teacher",
@@ -105,16 +75,6 @@
         "source_url": "https://news.ycombinator.com/item?id=48800410"
       },
       {
-        "name": "Teaching AI to Run with the Turbines",
-        "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-        "country": "",
-        "category": "AI 助教",
-        "one_liner": "Teaching AI to Run with the Turbines",
-        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
-        "source": "Hacker News",
-        "source_url": "https://news.ycombinator.com/item?id=48847710"
-      },
-      {
         "name": "An educational lab of AI agent architectures",
         "url": "https://github.com/Rudnik-Ilia/Agents-Sandbox",
         "country": "",
@@ -123,6 +83,26 @@
         "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
         "source": "Hacker News",
         "source_url": "https://news.ycombinator.com/item?id=48872922"
+      },
+      {
+        "name": "AI as Search Engine and Printing Press Aid: Local Education Data Munging",
+        "url": "https://middlesexgazette.org/news/vermonts-yardstick-moved/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI as Search Engine and Printing Press Aid: Local Education Data Munging",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48892925"
+      },
+      {
+        "name": "Food for Agile Thought 552: AI Creates Jobs? Overthinkers, Measuring ≠ Learning",
+        "url": "https://age-of-product.com/food-agile-thought-552-ai-creates-jobs/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Food for Agile Thought 552: AI Creates Jobs? Overthinkers, Measuring ≠ Learning",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48860662"
       }
     ]
   }
