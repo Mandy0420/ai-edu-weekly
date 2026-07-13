@@ -1,0 +1,30 @@
+[
+  {
+    "week": "2026-W28",
+    "date_range": "示例数据（首次真实运行后会被替换）",
+    "generated_at": "示例",
+    "sample": true,
+    "items": [
+      {
+        "name": "（示例）某海外 AI 助教产品",
+        "url": "",
+        "country": "美国",
+        "category": "AI 助教 / 作业批改",
+        "one_liner": "一句话说清它是做什么的、给谁用。",
+        "why_it_matters": "从产品经理视角，它值得关注的点：切了什么场景、和现有方案差在哪、商业模式或增长信号。",
+        "source": "Product Hunt",
+        "source_url": ""
+      },
+      {
+        "name": "（示例）某语言学习 AI 陪练",
+        "url": "",
+        "country": "英国",
+        "category": "语言学习 / 口语陪练",
+        "one_liner": "示例卡片，展示看板长什么样。",
+        "why_it_matters": "真实运行后，这里会是 Agent 每周筛出的 6–8 款新品。",
+        "source": "Hacker News",
+        "source_url": ""
+      }
+    ]
+  }
+]
