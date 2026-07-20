@@ -22,9 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 调研并生成本周数据
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/generate.py
+        run: python scripts/generate.py   # 免费多源采集，无需任何 API Key
 
       - name: 提交更新
         run: |
