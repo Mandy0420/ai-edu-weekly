@@ -1,5 +1,152 @@
 [
   {
+    "week": "2026-W30",
+    "date_range": "2026-07-20 ~ 2026-07-26",
+    "generated_at": "2026-07-20",
+    "items": [
+      {
+        "name": "Show HN: Ilya Sutskever's AI reading list into a learning RPG – using kimi k3",
+        "url": "https://ilya-papers-quest.naigap.com/#/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Ilya Sutskever's AI reading list into a learning RPG – using kimi k3",
+        "why_it_matters": "Hacker News 热度：6 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48963286"
+      },
+      {
+        "name": "deepseek-ai/DeepSpec",
+        "url": "https://github.com/deepseek-ai/DeepSpec",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+        "why_it_matters": "GitHub · ⭐ 6697",
+        "source": "GitHub",
+        "source_url": "https://github.com/deepseek-ai/DeepSpec"
+      },
+      {
+        "name": "Kulaxyz/self-learning-skills",
+        "url": "https://github.com/Kulaxyz/self-learning-skills",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+        "why_it_matters": "GitHub · ⭐ 899",
+        "source": "GitHub",
+        "source_url": "https://github.com/Kulaxyz/self-learning-skills"
+      },
+      {
+        "name": "Mainichi",
+        "url": "https://www.producthunt.com/products/mainichi-2",
+        "country": "日本",
+        "category": "AI + 教育",
+        "one_liner": "Learn Japanese, one prefecture at a time.\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/mainichi-2"
+      },
+      {
+        "name": "LLM-Integrated Multivariable Calculus Course",
+        "url": "https://calculus.academa.ai/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "LLM-Integrated Multivariable Calculus Course",
+        "why_it_matters": "Hacker News 热度：40 分 · 46 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48964585"
+      },
+      {
+        "name": "AI Lays Bare the Authoritarianism of Modern Work. Time to Rethink Education",
+        "url": "https://www.techpolicy.press/ai-lays-bare-the-authoritarianism-of-modern-work-time-to-rethink-education/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI Lays Bare the Authoritarianism of Modern Work. Time to Rethink Education",
+        "why_it_matters": "Hacker News 热度：32 分 · 3 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48920995"
+      },
+      {
+        "name": "UIUC AI Teaching Assistant",
+        "url": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "UIUC AI Teaching Assistant",
+        "why_it_matters": "Hacker News 热度：27 分 · 3 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48942721"
+      },
+      {
+        "name": "Tutorial: Algebraic Foundations Powering FlashAttention",
+        "url": "https://riftstack.ai/research/learning-flashattention-the-hard-way-part-1",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Tutorial: Algebraic Foundations Powering FlashAttention",
+        "why_it_matters": "Hacker News 热度：10 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48920785"
+      },
+      {
+        "name": "Tachyon: An AI Screen-Aware Tutor",
+        "url": "https://heybraza.com",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Tachyon: An AI Screen-Aware Tutor",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48900478"
+      },
+      {
+        "name": "Generative AI Can Harm Teaching",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Generative AI Can Harm Teaching",
+        "why_it_matters": "Hacker News 热度：3 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48970468"
+      },
+      {
+        "name": "I built an AI strength coach because I wanted my training backed by real studies",
+        "url": "https://github.com/clementrx/Performance-agent/tree/main",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "I built an AI strength coach because I wanted my training backed by real studies",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48879889"
+      },
+      {
+        "name": "An educational lab of AI agent architectures",
+        "url": "https://github.com/Rudnik-Ilia/Agents-Sandbox",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "An educational lab of AI agent architectures",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48872922"
+      },
+      {
+        "name": "AI makes learning feel too easy",
+        "url": "https://blog.danielyj.com/blog/ai-makes-learning-feel-easy",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI makes learning feel too easy",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48910248"
+      },
+      {
+        "name": "Anthropic Introduces Claude for Teachers",
+        "url": "https://edsurge.com/news/anthropic-introduces-claude-for-teachers",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The AI rollout is the latest effort by a tech giant to win over educators and districts.",
+        "why_it_matters": "EdSurge 报道",
+        "source": "EdSurge",
+        "source_url": "https://edsurge.com/news/anthropic-introduces-claude-for-teachers"
+      }
+    ]
+  },
+  {
     "week": "2026-W29",
     "date_range": "2026-07-13 ~ 2026-07-19",
     "generated_at": "2026-07-13",
