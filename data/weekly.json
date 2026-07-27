@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W31",
+    "date_range": "2026-07-27 ~ 2026-08-02",
+    "generated_at": "2026-07-27",
+    "items": [
+      {
+        "name": "Show HN: Ilya Sutskever's AI reading list into a learning RPG – using kimi k3",
+        "url": "https://ilya-papers-quest.naigap.com/#/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Ilya Sutskever's AI reading list into a learning RPG – using kimi k3",
+        "why_it_matters": "Hacker News 热度：6 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48963286"
+      },
+      {
+        "name": "Show HN: CodeTrain – an AI tutor that refuses to write code for you",
+        "url": "https://codetrain.ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: CodeTrain – an AI tutor that refuses to write code for you",
+        "why_it_matters": "Hacker News 热度：4 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48979014"
+      },
+      {
+        "name": "Show HN: Calyxa – Browser Native AI tutor solving the \"cheating\" problem",
+        "url": "https://calyxa.app",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Calyxa – Browser Native AI tutor solving the \"cheating\" problem",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48988530"
+      },
+      {
+        "name": "Show HN: AI tool for learning Python from scratch",
+        "url": "https://github.com/KubiKDB/AI-Tools-For-Learning",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: AI tool for learning Python from scratch",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49036505"
+      },
+      {
+        "name": "Kulaxyz/self-learning-skills",
+        "url": "https://github.com/Kulaxyz/self-learning-skills",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+        "why_it_matters": "GitHub · ⭐ 916",
+        "source": "GitHub",
+        "source_url": "https://github.com/Kulaxyz/self-learning-skills"
+      },
+      {
+        "name": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+        "url": "https://news.ycombinator.com/item?id=48981136",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+        "why_it_matters": "Hacker News 热度：100 分 · 107 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48981136"
+      },
+      {
+        "name": "BrainFeed",
+        "url": "https://www.producthunt.com/products/brainfeed-scroll-better",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A personalized learning feed that redirects your scroll\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/brainfeed-scroll-better"
+      },
+      {
+        "name": "Freesolo Flash",
+        "url": "https://www.producthunt.com/products/freesolo-flash",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Full-Stack Platform for Training Small Language Models\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/freesolo-flash"
+      },
+      {
+        "name": "LLM-Integrated Multivariable Calculus Course",
+        "url": "https://calculus.academa.ai/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "LLM-Integrated Multivariable Calculus Course",
+        "why_it_matters": "Hacker News 热度：42 分 · 46 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48964585"
+      },
+      {
+        "name": "AI slop learning websites with .org domains",
+        "url": "https://a14a.org",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI slop learning websites with .org domains",
+        "why_it_matters": "Hacker News 热度：4 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49023027"
+      },
+      {
+        "name": "Generative AI Can Harm Teaching",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Generative AI Can Harm Teaching",
+        "why_it_matters": "Hacker News 热度：3 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=48970468"
+      },
+      {
+        "name": "AI tutor that turns any document into interactive voice lessons",
+        "url": "https://www.tutorlify.com/en",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "AI tutor that turns any document into interactive voice lessons",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49000045"
+      },
+      {
+        "name": "BrainStem: Open‑source bio‑inspired AI with 12 neuromodulators for learning",
+        "url": "https://github.com/unikum-sol/brainstem",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "BrainStem: Open‑source bio‑inspired AI with 12 neuromodulators for learning",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49018280"
+      },
+      {
+        "name": "Efficient social learning is the human advantage over AI by Devid Deming",
+        "url": "https://forklightning.substack.com/p/efficient-social-learning-is-the",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Efficient social learning is the human advantage over AI by Devid Deming",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49024515"
+      },
+      {
+        "name": "do ai presentation tools with zoom style actually work",
+        "url": "https://www.reddit.com/r/edtech/comments/1v3riwd/do_ai_presentation_tools_with_zoom_style_actually/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "do ai presentation tools with zoom style actually work",
+        "why_it_matters": "Reddit r/edtech",
+        "source": "Reddit",
+        "source_url": "https://www.reddit.com/r/edtech/comments/1v3riwd/do_ai_presentation_tools_with_zoom_style_actually/"
+      }
+    ]
+  },
+  {
     "week": "2026-W30",
     "date_range": "2026-07-20 ~ 2026-07-26",
     "generated_at": "2026-07-20",
