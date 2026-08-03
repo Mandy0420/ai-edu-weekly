@@ -1,5 +1,152 @@
 [
   {
+    "week": "2026-W32",
+    "date_range": "2026-08-03 ~ 2026-08-09",
+    "generated_at": "2026-08-03",
+    "items": [
+      {
+        "name": "Show HN: TamedTable, AI ETL in Natural Language",
+        "url": "https://www.tamedtable.com/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: TamedTable, AI ETL in Natural Language",
+        "why_it_matters": "Hacker News 热度：8 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49142102"
+      },
+      {
+        "name": "Show HN: Case study: A coding agent refactors a 750k LOC app, no code review",
+        "url": "https://news.ycombinator.com/item?id=49068698",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Case study: A coding agent refactors a 750k LOC app, no code review",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49068698"
+      },
+      {
+        "name": "Show HN: AI tool for learning Python from scratch",
+        "url": "https://github.com/KubiKDB/AI-Tools-For-Learning",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: AI tool for learning Python from scratch",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49036505"
+      },
+      {
+        "name": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+        "url": "https://learnvector.ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+        "why_it_matters": "Hacker News 热度：267 分 · 172 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49092499"
+      },
+      {
+        "name": "XYZ-AI-Lab/axrl",
+        "url": "https://github.com/XYZ-AI-Lab/axrl",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AxisRL is an agentic RL post-training framework built on SGLang rollout, Megatron training, and real-world agent workflows.",
+        "why_it_matters": "GitHub · ⭐ 989",
+        "source": "GitHub",
+        "source_url": "https://github.com/XYZ-AI-Lab/axrl"
+      },
+      {
+        "name": "Screencap",
+        "url": "https://www.producthunt.com/products/screencap",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Turn your team's real workflows into AI training data\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/screencap"
+      },
+      {
+        "name": "Cleanlist AI",
+        "url": "https://www.producthunt.com/products/cleanlist-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Natural-language prospecting: find, enrich and sync leads.\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/cleanlist-ai"
+      },
+      {
+        "name": "Teacher arrested for clapping in opposition at an AI data center meeting",
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teacher arrested for clapping in opposition at an AI data center meeting",
+        "why_it_matters": "Hacker News 热度：59 分 · 16 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49097990"
+      },
+      {
+        "name": "Using AI to Strengthen Learning, Not Replace It",
+        "url": "https://studywisdom.co.uk/ai-study-strategies-choosing-tools-that-strengthen-learning/",
+        "country": "英国",
+        "category": "AI + 教育",
+        "one_liner": "Using AI to Strengthen Learning, Not Replace It",
+        "why_it_matters": "Hacker News 热度：12 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49097194"
+      },
+      {
+        "name": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
+        "url": "https://apnews.com/article/new-york-school-artificial-intelligence-robot-teacher-c2126c704104c4eb68b79738630b07df",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
+        "why_it_matters": "Hacker News 热度：5 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49090690"
+      },
+      {
+        "name": "AI in Education: Using ChatGPT Without Losing Critical Thinking",
+        "url": "https://www.notion4teachers.com/blog/the-ai-learning-divide-when-technology-supports-thinking-and-when-it-replaces-it",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI in Education: Using ChatGPT Without Losing Critical Thinking",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49103173"
+      },
+      {
+        "name": "The Skills AI Stopped Teaching Junior Developers",
+        "url": "https://menelaos.vergis.net/posts/The-Skills-AI-Stopped-Teaching-Junior-Developers",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The Skills AI Stopped Teaching Junior Developers",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49109873"
+      },
+      {
+        "name": "Pygame Tutorial for Beginners: Game Loop, Screen Window, & FPS Explained – No AI",
+        "url": "https://www.youtube.com/watch?v=P0IjXbKQfNc",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Pygame Tutorial for Beginners: Game Loop, Screen Window, & FPS Explained – No AI",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49127861"
+      },
+      {
+        "name": "Coursera Bets $100 Million That Andrew Ng Can Do What Coursera Can’t",
+        "url": "https://www.classcentral.com/report/coursera-andrew-ng-learnvector-investment/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Andrew Ng's LearnVector is a one-page website with no product. Coursera, where he is chairman, just valued it at $300 million. Something doesn't add up here. \nThe post Coursera Bets $100 Million That Andrew Ng Can Do What Coursera Can&#8217;t appeared first on The Report by Class Central.",
+        "why_it_matters": "Class Central 报道",
+        "source": "Class Central",
+        "source_url": "https://www.classcentral.com/report/coursera-andrew-ng-learnvector-investment/"
+      }
+    ]
+  },
+  {
     "week": "2026-W31",
     "date_range": "2026-07-27 ~ 2026-08-02",
     "generated_at": "2026-07-27",
