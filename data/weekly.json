@@ -1,5 +1,122 @@
 [
   {
+    "week": "2026-W33",
+    "date_range": "2026-08-10 ~ 2026-08-16",
+    "generated_at": "2026-08-10",
+    "items": [
+      {
+        "name": "Show HN: Hope, 1-on-1 AI Tutor for kids Grades 2-10 learning math",
+        "url": "https://usehope.app",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Hope, 1-on-1 AI Tutor for kids Grades 2-10 learning math",
+        "why_it_matters": "Hacker News 热度：11 分 · 13 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49195914"
+      },
+      {
+        "name": "Show HN: AI Tutoring with Visual Grounding",
+        "url": "https://useknowable.ai/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: AI Tutoring with Visual Grounding",
+        "why_it_matters": "Hacker News 热度：8 分 · 8 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49204343"
+      },
+      {
+        "name": "Show HN: Lefts – a domain specific language for building creative ML models",
+        "url": "https://nsmat.github.io/lefts/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: Lefts – a domain specific language for building creative ML models",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49209498"
+      },
+      {
+        "name": "Show HN: LearnOS – Open-source, AI-native Coursera you run locally",
+        "url": "https://learnos.opara-ai.com/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Show HN: LearnOS – Open-source, AI-native Coursera you run locally",
+        "why_it_matters": "Hacker News 热度：4 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49182432"
+      },
+      {
+        "name": "Show HN: YC Startup School, but AI-Native",
+        "url": "https://foundera.app/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: YC Startup School, but AI-Native",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49231031"
+      },
+      {
+        "name": "Show HN: Voca – Most AI tutors wander. I built one that follows a curriculum",
+        "url": "https://vocalessons.com/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Voca – Most AI tutors wander. I built one that follows a curriculum",
+        "why_it_matters": "Hacker News 热度：2 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49185996"
+      },
+      {
+        "name": "Learning to fly FPV drones with AI flight coach",
+        "url": "https://blog.divyendusingh.com/p/learning-to-fly-fpv-drones-with-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Learning to fly FPV drones with AI flight coach",
+        "why_it_matters": "Hacker News 热度：18 分 · 8 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49161803"
+      },
+      {
+        "name": "Ask HN: How are you using AI to learn?",
+        "url": "https://news.ycombinator.com/item?id=49138466",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ask HN: How are you using AI to learn?",
+        "why_it_matters": "Hacker News 热度：9 分 · 23 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49138466"
+      },
+      {
+        "name": "Teaching Coding When AI Can Write the Code",
+        "url": "https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching Coding When AI Can Write the Code",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49227028"
+      },
+      {
+        "name": "Pygame Tutorial for Beginners: Game Loop, Screen Window, & FPS Explained – No AI",
+        "url": "https://www.youtube.com/watch?v=P0IjXbKQfNc",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Pygame Tutorial for Beginners: Game Loop, Screen Window, & FPS Explained – No AI",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49127861"
+      },
+      {
+        "name": "Everything is a UOp – reading the deep learning stack behind comma[dot]AI",
+        "url": "https://ssenthilnathan3.github.io/blog/tinygrad/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Everything is a UOp – reading the deep learning stack behind comma[dot]AI",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49193993"
+      }
+    ]
+  },
+  {
     "week": "2026-W32",
     "date_range": "2026-08-03 ~ 2026-08-09",
     "generated_at": "2026-08-03",
