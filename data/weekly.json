@@ -1,5 +1,152 @@
 [
   {
+    "week": "2026-W34",
+    "date_range": "2026-08-17 ~ 2026-08-23",
+    "generated_at": "2026-08-17",
+    "items": [
+      {
+        "name": "Show HN: Visually Precise AI Tutoring on iOS",
+        "url": "https://useknowable.ai/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Visually Precise AI Tutoring on iOS",
+        "why_it_matters": "Hacker News 热度：10 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49310572"
+      },
+      {
+        "name": "Show HN: Lefts – a domain specific language for building creative ML models",
+        "url": "https://nsmat.github.io/lefts/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: Lefts – a domain specific language for building creative ML models",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49209498"
+      },
+      {
+        "name": "Show HN: YC Startup School, but AI-Native",
+        "url": "https://foundera.app/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: YC Startup School, but AI-Native",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49231031"
+      },
+      {
+        "name": "Show HN: SoundGate – Real-time note detection and AI tutor for guitar",
+        "url": "https://soundgate.ai/product/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: SoundGate – Real-time note detection and AI tutor for guitar",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49269584"
+      },
+      {
+        "name": "GLM-5.3",
+        "url": "https://www.producthunt.com/products/z-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Coding leap from scaled post-training on the same base\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/z-ai"
+      },
+      {
+        "name": "NS1",
+        "url": "https://www.producthunt.com/products/ns1",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Personalized Nervous System Training\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/ns1"
+      },
+      {
+        "name": "Teaching Coding When AI Can Write the Code",
+        "url": "https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching Coding When AI Can Write the Code",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49227028"
+      },
+      {
+        "name": "An easy way to build self-diagnosing and self-learning AI agents in production",
+        "url": "https://www.youtube.com/watch?v=2x0BKQBMbF4",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "An easy way to build self-diagnosing and self-learning AI agents in production",
+        "why_it_matters": "Hacker News 热度：5 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49302294"
+      },
+      {
+        "name": "AI is learning clinical judgment by practicing on simulated patients",
+        "url": "https://www.echohive.ai/ai-clinical-residency",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI is learning clinical judgment by practicing on simulated patients",
+        "why_it_matters": "Hacker News 热度：4 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49292870"
+      },
+      {
+        "name": "The Medium Is the Mind: What AI Is Doing to Education",
+        "url": "https://medium.com/@henry.fisher.n/the-medium-is-the-mind-what-ai-is-doing-to-education-614bc2fbb493",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "The Medium Is the Mind: What AI Is Doing to Education",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49244310"
+      },
+      {
+        "name": "Teaching an Open Model to Do Science",
+        "url": "https://www.arcee.ai/blog/teaching-an-open-model-to-do-science",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching an Open Model to Do Science",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49253234"
+      },
+      {
+        "name": "Ask HN: How do you use AI for learning?",
+        "url": "https://news.ycombinator.com/item?id=49295839",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ask HN: How do you use AI for learning?",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49295839"
+      },
+      {
+        "name": "Bower: AI-powered tool to find educators for homeschool learning pods",
+        "url": "https://educateprivately.com/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Bower: AI-powered tool to find educators for homeschool learning pods",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49248462"
+      },
+      {
+        "name": "Looking for simple AI tools to help me turn lessons into slides",
+        "url": "https://www.reddit.com/r/edtech/comments/1vn8gi4/looking_for_simple_ai_tools_to_help_me_turn/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Looking for simple AI tools to help me turn lessons into slides",
+        "why_it_matters": "Reddit r/edtech",
+        "source": "Reddit",
+        "source_url": "https://www.reddit.com/r/edtech/comments/1vn8gi4/looking_for_simple_ai_tools_to_help_me_turn/"
+      }
+    ]
+  },
+  {
     "week": "2026-W33",
     "date_range": "2026-08-10 ~ 2026-08-16",
     "generated_at": "2026-08-10",
