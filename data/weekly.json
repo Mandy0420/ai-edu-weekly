@@ -1,5 +1,142 @@
 [
   {
+    "week": "2026-W35",
+    "date_range": "2026-08-24 ~ 2026-08-30",
+    "generated_at": "2026-08-24",
+    "items": [
+      {
+        "name": "Show HN: Visually Precise AI Tutoring on iOS",
+        "url": "https://useknowable.ai/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Visually Precise AI Tutoring on iOS",
+        "why_it_matters": "Hacker News 热度：10 分 · 3 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49310572"
+      },
+      {
+        "name": "Show HN: Learn Leap, an AI tutor that teaches from your own material",
+        "url": "https://learnleap.xyz",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Learn Leap, an AI tutor that teaches from your own material",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49397663"
+      },
+      {
+        "name": "Show HN: Personal AI tutor that builds and probes your understanding",
+        "url": "https://github.com/grandimam/suki",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Personal AI tutor that builds and probes your understanding",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49337613"
+      },
+      {
+        "name": "Zero",
+        "url": "https://www.producthunt.com/products/zero-15",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Vercel's programming language built for AI agents\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/zero-15"
+      },
+      {
+        "name": "The importance of teaching students what AI can't do",
+        "url": "https://theconversation.com/the-importance-of-teaching-students-what-ai-cant-do-286100",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The importance of teaching students what AI can't do",
+        "why_it_matters": "Hacker News 热度：8 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49403885"
+      },
+      {
+        "name": "An easy way to build self-diagnosing and self-learning AI agents in production",
+        "url": "https://www.youtube.com/watch?v=2x0BKQBMbF4",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "An easy way to build self-diagnosing and self-learning AI agents in production",
+        "why_it_matters": "Hacker News 热度：5 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49302294"
+      },
+      {
+        "name": "How generative AI affects homework productivity and learning",
+        "url": "https://graphics.social/@metin/117123760167000114",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "How generative AI affects homework productivity and learning",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49366996"
+      },
+      {
+        "name": "Anthropic's approach to teaching and learning AI",
+        "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Anthropic's approach to teaching and learning AI",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49389903"
+      },
+      {
+        "name": "Using AI in 2026 (Coding, Writing, Learning, Assistant-Ing)",
+        "url": "https://blog.sshh.io/p/how-i-use-ai-in-2026-coding-writing",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Using AI in 2026 (Coding, Writing, Learning, Assistant-Ing)",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49331280"
+      },
+      {
+        "name": "Teaching AI with Quantum Data",
+        "url": "https://www.quantinuum.com/blog/teaching-ai-with-quantum-data",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching AI with Quantum Data",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49362854"
+      },
+      {
+        "name": "Ask HN: How do you use AI for learning?",
+        "url": "https://news.ycombinator.com/item?id=49295839",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ask HN: How do you use AI for learning?",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49295839"
+      },
+      {
+        "name": "Google Turns On Gemini A.I. for Students Using Its Classroom App",
+        "url": "https://www.reddit.com/r/edtech/comments/1vrn85p/google_turns_on_gemini_ai_for_students_using_its/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Google Turns On Gemini A.I. for Students Using Its Classroom App",
+        "why_it_matters": "Reddit r/edtech",
+        "source": "Reddit",
+        "source_url": "https://www.reddit.com/r/edtech/comments/1vrn85p/google_turns_on_gemini_ai_for_students_using_its/"
+      },
+      {
+        "name": "Looking for simple AI tools to help me turn lessons into slides",
+        "url": "https://www.reddit.com/r/edtech/comments/1vn8gi4/looking_for_simple_ai_tools_to_help_me_turn/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Looking for simple AI tools to help me turn lessons into slides",
+        "why_it_matters": "Reddit r/edtech",
+        "source": "Reddit",
+        "source_url": "https://www.reddit.com/r/edtech/comments/1vn8gi4/looking_for_simple_ai_tools_to_help_me_turn/"
+      }
+    ]
+  },
+  {
     "week": "2026-W34",
     "date_range": "2026-08-17 ~ 2026-08-23",
     "generated_at": "2026-08-17",
