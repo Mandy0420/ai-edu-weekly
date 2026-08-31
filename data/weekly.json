@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W36",
+    "date_range": "2026-08-31 ~ 2026-09-06",
+    "generated_at": "2026-08-31",
+    "items": [
+      {
+        "name": "Show HN: BAIhAIs – an autonomous art school for AI agents",
+        "url": "https://baihais.com/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: BAIhAIs – an autonomous art school for AI agents",
+        "why_it_matters": "Hacker News 热度：5 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49463403"
+      },
+      {
+        "name": "Show HN: iOS app for learning any song on piano with AI music transcription",
+        "url": "https://apps.apple.com/us/app/anything-piano-learn-any-song/id6761146933",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: iOS app for learning any song on piano with AI music transcription",
+        "why_it_matters": "Hacker News 热度：4 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49483015"
+      },
+      {
+        "name": "Show HN: AI engineer course where every lesson is runnable Spring Boot project",
+        "url": "https://engineerprep.io/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Show HN: AI engineer course where every lesson is runnable Spring Boot project",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49463616"
+      },
+      {
+        "name": "Show HN: Learn Leap, an AI tutor that teaches from your own material",
+        "url": "https://learnleap.xyz",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Learn Leap, an AI tutor that teaches from your own material",
+        "why_it_matters": "Hacker News 热度：1 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49397663"
+      },
+      {
+        "name": "The importance of teaching students what AI can't do",
+        "url": "https://theconversation.com/the-importance-of-teaching-students-what-ai-cant-do-286100",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The importance of teaching students what AI can't do",
+        "why_it_matters": "Hacker News 热度：8 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49403885"
+      },
+      {
+        "name": "Ask HN: What new skills are you learning to hedge against AI",
+        "url": "https://news.ycombinator.com/item?id=49474923",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ask HN: What new skills are you learning to hedge against AI",
+        "why_it_matters": "Hacker News 热度：7 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49474923"
+      },
+      {
+        "name": "The Importance of Reading (and Teaching) Cyberpunk in the Age of AI",
+        "url": "https://reactormag.com/the-importance-of-reading-and-teaching-cyberpunk-in-the-age-of-ai/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The Importance of Reading (and Teaching) Cyberpunk in the Age of AI",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49451720"
+      },
+      {
+        "name": "ZeroPop: AI trading card grading / pricing / ID for iOS, Android, and Web",
+        "url": "https://zeropop.app/",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "ZeroPop: AI trading card grading / pricing / ID for iOS, Android, and Web",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49428357"
+      },
+      {
+        "name": "Interactive AI Tutorials: Build Agent Skills",
+        "url": "https://academy.dair.ai/resources/write-your-first-agent-skill",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Interactive AI Tutorials: Build Agent Skills",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49451328"
+      },
+      {
+        "name": "Alpha School's AI teaching model is expanding. Does it work?",
+        "url": "https://www.scientificamerican.com/article/alpha-schools-ai-teaching-model-is-expanding-does-it-work/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Alpha School's AI teaching model is expanding. Does it work?",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49487831"
+      },
+      {
+        "name": "Anthropic's approach to teaching and learning AI",
+        "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Anthropic's approach to teaching and learning AI",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49389903"
+      },
+      {
+        "name": "An Interesting AI Educational Animation Generator",
+        "url": "https://fogsight.ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "An Interesting AI Educational Animation Generator",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49432188"
+      },
+      {
+        "name": "Learning to Draw Again with AI",
+        "url": "https://surya.website/a-blog/learning-to-draw-again-with-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Learning to Draw Again with AI",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49493500"
+      },
+      {
+        "name": "Ezducate an AI powered special education platform",
+        "url": "https://www.ezducate.ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ezducate an AI powered special education platform",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49486557"
+      },
+      {
+        "name": "I Built a Reddit-Like Forum for Agents. They Designed a Self-Learning Language",
+        "url": "https://www.reddit.com/r/aiagents/comments/1vxjnpf/i_built_a_redditlike_forum_for_ai_agents_they/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "I Built a Reddit-Like Forum for Agents. They Designed a Self-Learning Language",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49439114"
+      }
+    ]
+  },
+  {
     "week": "2026-W35",
     "date_range": "2026-08-24 ~ 2026-08-30",
     "generated_at": "2026-08-24",
