@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W37",
+    "date_range": "2026-09-07 ~ 2026-09-13",
+    "generated_at": "2026-09-07",
+    "items": [
+      {
+        "name": "Show HN: iOS app for learning any song on piano with AI music transcription",
+        "url": "https://apps.apple.com/us/app/anything-piano-learn-any-song/id6761146933",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: iOS app for learning any song on piano with AI music transcription",
+        "why_it_matters": "Hacker News 热度：4 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49483015"
+      },
+      {
+        "name": "Show HN: Profound Academy – an agentic course builder for hands-on courses",
+        "url": "https://profound.academy",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Show HN: Profound Academy – an agentic course builder for hands-on courses",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49547037"
+      },
+      {
+        "name": "amosblomqvist/learn",
+        "url": "https://github.com/amosblomqvist/learn",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "My AI learning system.",
+        "why_it_matters": "GitHub · ⭐ 1507",
+        "source": "GitHub",
+        "source_url": "https://github.com/amosblomqvist/learn"
+      },
+      {
+        "name": "Reflexio",
+        "url": "https://www.producthunt.com/products/reflexio-2",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Behavioral learning that makes AI agents better over time\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/reflexio-2"
+      },
+      {
+        "name": "myAIcademy",
+        "url": "https://www.producthunt.com/products/myaicademy",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Learn AI skills for your specific role and team\n          \n          \n            Discussion\n            |\n            Link",
+        "why_it_matters": "Product Hunt 当日新品",
+        "source": "Product Hunt",
+        "source_url": "https://www.producthunt.com/products/myaicademy"
+      },
+      {
+        "name": "Ask HN: What new skills are you learning to hedge against AI",
+        "url": "https://news.ycombinator.com/item?id=49474923",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ask HN: What new skills are you learning to hedge against AI",
+        "why_it_matters": "Hacker News 热度：8 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49474923"
+      },
+      {
+        "name": "The first AI-run ransomware attack copied its Bitcoin address out of a tutorial",
+        "url": "https://medium.com/@thenewgencoder/the-first-fully-ai-run-ransomware-attack-copied-its-bitcoin-address-out-of-a-tutorial-a630ee3224dc",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The first AI-run ransomware attack copied its Bitcoin address out of a tutorial",
+        "why_it_matters": "Hacker News 热度：5 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49589728"
+      },
+      {
+        "name": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+        "url": "https://www.typetheoryforall.com/episodes/pl-education-in-the-age-of-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49593083"
+      },
+      {
+        "name": "Generative AI without guardrails can harm learning",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40560616/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Generative AI without guardrails can harm learning",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49546175"
+      },
+      {
+        "name": "AI in Education Knowledge Base",
+        "url": "https://edtechdev.github.io/aied/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI in Education Knowledge Base",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49509073"
+      },
+      {
+        "name": "Learning to Draw Again with AI",
+        "url": "https://surya.website/a-blog/learning-to-draw-again-with-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Learning to Draw Again with AI",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49493500"
+      },
+      {
+        "name": "Interactive Tutorial to how modern AI works – accessible to a middle schooler",
+        "url": "https://learnai.robennals.org",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Interactive Tutorial to how modern AI works – accessible to a middle schooler",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49525031"
+      },
+      {
+        "name": "Ezducate an AI powered special education platform",
+        "url": "https://www.ezducate.ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Ezducate an AI powered special education platform",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49486557"
+      },
+      {
+        "name": "I built a tool that turns any topic into a structured YouTube course (using AI)",
+        "url": "https://cursosenvideo.online",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "I built a tool that turns any topic into a structured YouTube course (using AI)",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49563947"
+      },
+      {
+        "name": "'coarse – AI peer review, of course (MIT license)",
+        "url": "https://coarse.ink/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "'coarse – AI peer review, of course (MIT license)",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49574031"
+      }
+    ]
+  },
+  {
     "week": "2026-W36",
     "date_range": "2026-08-31 ~ 2026-09-06",
     "generated_at": "2026-08-31",
