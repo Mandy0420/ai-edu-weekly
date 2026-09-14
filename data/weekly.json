@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W38",
+    "date_range": "2026-09-14 ~ 2026-09-20",
+    "generated_at": "2026-09-14",
+    "items": [
+      {
+        "name": "Show HN: Kibble – a reader for AI news, tutorials, code and models",
+        "url": "https://www.kibblebites.com/app/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Kibble – a reader for AI news, tutorials, code and models",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49687860"
+      },
+      {
+        "name": "Show HN: Socratix – an AI tutor for proving mastery, not memorizing",
+        "url": "https://socratix-nine.vercel.app",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Socratix – an AI tutor for proving mastery, not memorizing",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49661638"
+      },
+      {
+        "name": "Show HN: Training RL model to race in TrackMania",
+        "url": "https://antonkasyanov.substack.com/p/teaching-an-ai-to-drive-trackmania",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Training RL model to race in TrackMania",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49612300"
+      },
+      {
+        "name": "Show HN: Pollium – A new way to study with AI",
+        "url": "https://learn.pollium.io",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Pollium – A new way to study with AI",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49611974"
+      },
+      {
+        "name": "amosblomqvist/learn",
+        "url": "https://github.com/amosblomqvist/learn",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "My AI learning system.",
+        "why_it_matters": "GitHub · ⭐ 1893",
+        "source": "GitHub",
+        "source_url": "https://github.com/amosblomqvist/learn"
+      },
+      {
+        "name": "brayonpi/hexstellar",
+        "url": "https://github.com/brayonpi/hexstellar",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar",
+        "why_it_matters": "GitHub · ⭐ 1198",
+        "source": "GitHub",
+        "source_url": "https://github.com/brayonpi/hexstellar"
+      },
+      {
+        "name": "Terrence Tao: AI Is Teaching Us Something Uncomfortable About Our Own Minds [video]",
+        "url": "https://www.youtube.com/watch?v=DRDoABHToEo",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Terrence Tao: AI Is Teaching Us Something Uncomfortable About Our Own Minds [video]",
+        "why_it_matters": "Hacker News 热度：17 分 · 7 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49680084"
+      },
+      {
+        "name": "Teaching an AI My Taste",
+        "url": "https://lonriesberg.com/posts/teaching-an-ai-my-taste/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teaching an AI My Taste",
+        "why_it_matters": "Hacker News 热度：15 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49629118"
+      },
+      {
+        "name": "The first AI-run ransomware attack copied its Bitcoin address out of a tutorial",
+        "url": "https://medium.com/@thenewgencoder/the-first-fully-ai-run-ransomware-attack-copied-its-bitcoin-address-out-of-a-tutorial-a630ee3224dc",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The first AI-run ransomware attack copied its Bitcoin address out of a tutorial",
+        "why_it_matters": "Hacker News 热度：5 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49589728"
+      },
+      {
+        "name": "AI changing the calculus for Canadian students interested in comp sci",
+        "url": "https://www.theglobeandmail.com/canada/article-ai-computer-science-students-and-schools-that-hope-to-teach-them/",
+        "country": "加拿大",
+        "category": "AI + 教育",
+        "one_liner": "AI changing the calculus for Canadian students interested in comp sci",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49671432"
+      },
+      {
+        "name": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+        "url": "https://www.typetheoryforall.com/episodes/pl-education-in-the-age-of-ai",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "PL Education in the Age of AI: Interview with Shriram Krishnamurthi",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49593083"
+      },
+      {
+        "name": "Tutorial on OpenAI's sphere packing result",
+        "url": "https://www.empirical.health/blog/ai-math-sphere-packing/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Tutorial on OpenAI's sphere packing result",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49625937"
+      },
+      {
+        "name": "Smart Learning for Developers: How AI Is Changing the Way We Master New Things",
+        "url": "https://www.portotheme.com/smart-learning-for-web-developers-how-ai-is-changing-the-way-we-master-new-frameworks-and-docs/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Smart Learning for Developers: How AI Is Changing the Way We Master New Things",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49650257"
+      },
+      {
+        "name": "The $40k a year school where AI shapes every lesson, without teachers",
+        "url": "https://www.cbsnews.com/news/alpha-school-artificial-intelligence/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "The $40k a year school where AI shapes every lesson, without teachers",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49642074"
+      },
+      {
+        "name": "Ask HN: As a teacher how should I teach kids to use AI?",
+        "url": "https://news.ycombinator.com/item?id=49641100",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Ask HN: As a teacher how should I teach kids to use AI?",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49641100"
+      }
+    ]
+  },
+  {
     "week": "2026-W37",
     "date_range": "2026-09-07 ~ 2026-09-13",
     "generated_at": "2026-09-07",
