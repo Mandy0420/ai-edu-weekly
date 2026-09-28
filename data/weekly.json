@@ -1,5 +1,122 @@
 [
   {
+    "week": "2026-W40",
+    "date_range": "2026-09-28 ~ 2026-10-04",
+    "generated_at": "2026-09-28",
+    "items": [
+      {
+        "name": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+        "url": "https://github.com/volotat/mini-AGI/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+        "why_it_matters": "Hacker News 热度：277 分 · 80 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49783133"
+      },
+      {
+        "name": "Show HN: Training a model to identify AI web content from structure alone",
+        "url": "https://arxiv.org/abs/2609.15369",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Training a model to identify AI web content from structure alone",
+        "why_it_matters": "Hacker News 热度：73 分 · 26 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49800566"
+      },
+      {
+        "name": "Show HN: Reteach – AI tutor that feels human",
+        "url": "https://www.reteach.study/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Reteach – AI tutor that feels human",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49840850"
+      },
+      {
+        "name": "How I changed teaching after AI managed to do all my homework assignments",
+        "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "How I changed teaching after AI managed to do all my homework assignments",
+        "why_it_matters": "Hacker News 热度：291 分 · 271 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49836579"
+      },
+      {
+        "name": "AI Is Antithetical to Learning",
+        "url": "https://jola.dev/posts/ai-antithetical-learning",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI Is Antithetical to Learning",
+        "why_it_matters": "Hacker News 热度：20 分 · 12 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49800917"
+      },
+      {
+        "name": "The Case for Learning in the Era of AI",
+        "url": "https://jonbehnken.substack.com/p/the-case-for-learning",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "The Case for Learning in the Era of AI",
+        "why_it_matters": "Hacker News 热度：8 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49859979"
+      },
+      {
+        "name": "Napster Is Now Making AI-Powered 'Digital Twins' of Teachers",
+        "url": "https://gizmodo.com/napster-is-now-making-ai-powered-digital-twins-of-teachers-2000814010",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Napster Is Now Making AI-Powered 'Digital Twins' of Teachers",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49759702"
+      },
+      {
+        "name": "Fundamentals still worth learning when AI writes the code",
+        "url": "https://flaviocopes.com/fundamentals-ai-era/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Fundamentals still worth learning when AI writes the code",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49871053"
+      },
+      {
+        "name": "Machine Learning Systems",
+        "url": "https://mlsysbook.ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Machine Learning Systems",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49871219"
+      },
+      {
+        "name": "Bugs that broke driving: Machine Learning edition",
+        "url": "https://blog.comma.ai/ml-bugs/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Bugs that broke driving: Machine Learning edition",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49791848"
+      },
+      {
+        "name": "Learning Commons Launches Open Platform for K-12 Edtech",
+        "url": "https://edsurge.com/news/learning-commons-launches-open-ai-platform-for-k-12-edtech",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "The CZI-backed initiative helps educators and developers use state standards, curricula, and datasets to create and evaluate classroom AI, but critics ...",
+        "why_it_matters": "EdSurge 报道",
+        "source": "EdSurge",
+        "source_url": "https://edsurge.com/news/learning-commons-launches-open-ai-platform-for-k-12-edtech"
+      }
+    ]
+  },
+  {
     "week": "2026-W39",
     "date_range": "2026-09-21 ~ 2026-09-27",
     "generated_at": "2026-09-21",
