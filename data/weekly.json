@@ -1,5 +1,132 @@
 [
   {
+    "week": "2026-W41",
+    "date_range": "2026-10-05 ~ 2026-10-11",
+    "generated_at": "2026-10-05",
+    "items": [
+      {
+        "name": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
+        "url": "https://teacherplanner.ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49939688"
+      },
+      {
+        "name": "Show HN: Taskrouter – One API Learning to Choose Models per AI Task",
+        "url": "https://taskrouter.com",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Taskrouter – One API Learning to Choose Models per AI Task",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49935311"
+      },
+      {
+        "name": "Show HN: Keel – Give your agent a typed strategy language, not a trading account",
+        "url": "https://usekeel.io/how-it-works",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: Keel – Give your agent a typed strategy language, not a trading account",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49924208"
+      },
+      {
+        "name": "The Case for Learning in the Era of AI",
+        "url": "https://jonbehnken.substack.com/p/the-case-for-learning",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "The Case for Learning in the Era of AI",
+        "why_it_matters": "Hacker News 热度：8 分 · 4 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49859979"
+      },
+      {
+        "name": "My New Course at UT Austin: AI Alignment Theory",
+        "url": "https://scottaaronson.blog/?p=10125",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "My New Course at UT Austin: AI Alignment Theory",
+        "why_it_matters": "Hacker News 热度：5 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49959916"
+      },
+      {
+        "name": "AI's next training data: your dodgy gaming skills",
+        "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI's next training data: your dodgy gaming skills",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49886262"
+      },
+      {
+        "name": "Fundamentals still worth learning when AI writes the code",
+        "url": "https://flaviocopes.com/fundamentals-ai-era/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Fundamentals still worth learning when AI writes the code",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49871053"
+      },
+      {
+        "name": "Texas Piloted AI Learning Tool in Public Schools over Education Board's Concerns",
+        "url": "https://www.texastribune.org/2026/10/01/alpha-school-ai-texas-public-schools-mike-morath/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Texas Piloted AI Learning Tool in Public Schools over Education Board's Concerns",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49927864"
+      },
+      {
+        "name": "Machine Learning Systems",
+        "url": "https://mlsysbook.ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Machine Learning Systems",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49871219"
+      },
+      {
+        "name": "Using AI to chart a course for our post-quantum migration",
+        "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Using AI to chart a course for our post-quantum migration",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49931628"
+      },
+      {
+        "name": "AI Learning to Play Chess",
+        "url": "https://ailearningchess.ai-learning-chess.workers.dev/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI Learning to Play Chess",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49951733"
+      },
+      {
+        "name": "Index 0 – AI assisted learning for programming",
+        "url": "https://www.youtube.com/watch?v=YhavzsLUOS0",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Index 0 – AI assisted learning for programming",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49902227"
+      }
+    ]
+  },
+  {
     "week": "2026-W40",
     "date_range": "2026-09-28 ~ 2026-10-04",
     "generated_at": "2026-09-28",
