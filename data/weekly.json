@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W42",
+    "date_range": "2026-10-12 ~ 2026-10-18",
+    "generated_at": "2026-10-12",
+    "items": [
+      {
+        "name": "Show HN: Teaching a 30ms local model, play browser games with LLM written rules",
+        "url": "https://github.com/ironbee-ai/ironbee-gamer",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Teaching a 30ms local model, play browser games with LLM written rules",
+        "why_it_matters": "Hacker News 热度：4 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50006573"
+      },
+      {
+        "name": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
+        "url": "https://teacherplanner.ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
+        "why_it_matters": "Hacker News 热度：3 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49939688"
+      },
+      {
+        "name": "Show HN: Tutor, a self-hosted LLM tutor that teaches you your books or docs",
+        "url": "https://github.com/demetrius-edelin/tutor",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Tutor, a self-hosted LLM tutor that teaches you your books or docs",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50036777"
+      },
+      {
+        "name": "Show HN: Atlas Runa – E2E AI-enhanced language learning",
+        "url": "https://atlasruna.com/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: Atlas Runa – E2E AI-enhanced language learning",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50044874"
+      },
+      {
+        "name": "Show HN: Taskrouter – One API Learning to Choose Models per AI Task",
+        "url": "https://taskrouter.com",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Taskrouter – One API Learning to Choose Models per AI Task",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49935311"
+      },
+      {
+        "name": "nykooi1/vibe-wise",
+        "url": "https://github.com/nykooi1/vibe-wise",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+        "why_it_matters": "GitHub · ⭐ 3434",
+        "source": "GitHub",
+        "source_url": "https://github.com/nykooi1/vibe-wise"
+      },
+      {
+        "name": "AI tutoring with Khanmigo in a two-year school experiment",
+        "url": "https://edworkingpapers.com/ai26-1551",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "AI tutoring with Khanmigo in a two-year school experiment",
+        "why_it_matters": "Hacker News 热度：73 分 · 70 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49972419"
+      },
+      {
+        "name": "Jonathan Haidt: AI Is the 'Neutron Bomb for Education' [video]",
+        "url": "https://www.youtube.com/watch?v=RFTfANuLBF4",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Jonathan Haidt: AI Is the 'Neutron Bomb for Education' [video]",
+        "why_it_matters": "Hacker News 热度：34 分 · 65 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49965042"
+      },
+      {
+        "name": "My New Course at UT Austin: AI Alignment Theory",
+        "url": "https://scottaaronson.blog/?p=10125",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "My New Course at UT Austin: AI Alignment Theory",
+        "why_it_matters": "Hacker News 热度：10 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49959916"
+      },
+      {
+        "name": "Optimizing Away Learning with AI",
+        "url": "https://hilalmutlu.com/blog/optimizing-away-learning-with-ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Optimizing Away Learning with AI",
+        "why_it_matters": "Hacker News 热度：4 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49982693"
+      },
+      {
+        "name": "LC-3 Assembly Tutor-AI tutor that explains what the machine is doing",
+        "url": "https://ai-assembly-tutor-v2-9a6d593b-1.telnyxcompute.com/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "LC-3 Assembly Tutor-AI tutor that explains what the machine is doing",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49994496"
+      },
+      {
+        "name": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+        "url": "https://news.ycombinator.com/item?id=49966625",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49966625"
+      },
+      {
+        "name": "AI Certification Council (AICC) – AI education and AI technical skills",
+        "url": "https://www.aicertificationcouncil.com/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI Certification Council (AICC) – AI education and AI technical skills",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49978180"
+      },
+      {
+        "name": "Discover AI – A Learning Guide",
+        "url": "https://github.com/Fazmin/AILearningGuide",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Discover AI – A Learning Guide",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49965583"
+      },
+      {
+        "name": "Using AI to chart a course for our post-quantum migration",
+        "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Using AI to chart a course for our post-quantum migration",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49931628"
+      }
+    ]
+  },
+  {
     "week": "2026-W41",
     "date_range": "2026-10-05 ~ 2026-10-11",
     "generated_at": "2026-10-05",
