@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W43",
+    "date_range": "2026-10-19 ~ 2026-10-25",
+    "generated_at": "2026-10-19",
+    "items": [
+      {
+        "name": "Show HN: AI Hub – Open Access Lesson Plans for Teaching Students about AI",
+        "url": "https://aihub.remakelearning.org/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: AI Hub – Open Access Lesson Plans for Teaching Students about AI",
+        "why_it_matters": "Hacker News 热度：6 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50081297"
+      },
+      {
+        "name": "Show HN: shadowclone, skills learned from your coding agent corrections",
+        "url": "https://github.com/theonly1me/shadowclone",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: shadowclone, skills learned from your coding agent corrections",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50069498"
+      },
+      {
+        "name": "Show HN: Receptive Field – Learn Convolutional Neural Networks Interactively",
+        "url": "https://receptive-field-flame.vercel.app/appendix/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: Receptive Field – Learn Convolutional Neural Networks Interactively",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50107564"
+      },
+      {
+        "name": "Show HN: Tutor, a self-hosted LLM tutor that teaches you your books or docs",
+        "url": "https://github.com/demetrius-edelin/tutor",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: Tutor, a self-hosted LLM tutor that teaches you your books or docs",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50036777"
+      },
+      {
+        "name": "Show HN: Atlas Runa – E2E AI-enhanced language learning",
+        "url": "https://atlasruna.com/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: Atlas Runa – E2E AI-enhanced language learning",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50044874"
+      },
+      {
+        "name": "nykooi1/vibe-wise",
+        "url": "https://github.com/nykooi1/vibe-wise",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+        "why_it_matters": "GitHub · ⭐ 3760",
+        "source": "GitHub",
+        "source_url": "https://github.com/nykooi1/vibe-wise"
+      },
+      {
+        "name": "LLMs Broke Developer Education",
+        "url": "https://www.augmentedswe.com/p/ai-is-changing-developer-education",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "LLMs Broke Developer Education",
+        "why_it_matters": "Hacker News 热度：4 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50065324"
+      },
+      {
+        "name": "What AI is revealing about education, what education must confront about itself",
+        "url": "https://vanessaandreotti.substack.com/p/in-the-digital-waters",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "What AI is revealing about education, what education must confront about itself",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50120190"
+      },
+      {
+        "name": "Beating Warcraft III's insane AI with self-play reinforcement learning on one PC",
+        "url": "https://warlock.ai/blog/warcraftsim-1/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Beating Warcraft III's insane AI with self-play reinforcement learning on one PC",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50144489"
+      },
+      {
+        "name": "Can an AI learn what you like, rather than just what you've searched for?",
+        "url": "https://news.ycombinator.com/item?id=50017172",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Can an AI learn what you like, rather than just what you've searched for?",
+        "why_it_matters": "Hacker News 热度：2 分 · 3 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50017172"
+      },
+      {
+        "name": "ConvyCanvas – AI Tutor for Euclid's Elements",
+        "url": "https://convycanvas.com/elements/reader/#euclid_i/prop_001",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "ConvyCanvas – AI Tutor for Euclid's Elements",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50131574"
+      },
+      {
+        "name": "AI-Customized Plush Toys × Early Education Software – One-Stop OEM/ODM",
+        "url": "https://niokyar.com/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI-Customized Plush Toys × Early Education Software – One-Stop OEM/ODM",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50053748"
+      },
+      {
+        "name": "RobynNews – an AI news show by AI learning from its YouTube comments",
+        "url": "https://robynnews.com/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "RobynNews – an AI news show by AI learning from its YouTube comments",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50051986"
+      },
+      {
+        "name": "Belgrade AI Conference: Safety, Federated Learning and Hiring Bias",
+        "url": "https://irishtechnews.ie/belgrade-ai-conference-safety-learning/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Belgrade AI Conference: Safety, Federated Learning and Hiring Bias",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50117475"
+      },
+      {
+        "name": "Perceptors AI – turning clinical expertise into reviewed courses",
+        "url": "https://www.perceptors.ai/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Perceptors AI – turning clinical expertise into reviewed courses",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50131799"
+      }
+    ]
+  },
+  {
     "week": "2026-W42",
     "date_range": "2026-10-12 ~ 2026-10-18",
     "generated_at": "2026-10-12",
