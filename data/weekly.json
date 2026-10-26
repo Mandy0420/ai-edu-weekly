@@ -1,5 +1,162 @@
 [
   {
+    "week": "2026-W44",
+    "date_range": "2026-10-26 ~ 2026-11-01",
+    "generated_at": "2026-10-26",
+    "items": [
+      {
+        "name": "Show HN: RainbowSay – Learn, teach, research languages live with shows you love",
+        "url": "https://rainbowsay.ai/",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Show HN: RainbowSay – Learn, teach, research languages live with shows you love",
+        "why_it_matters": "Hacker News 热度：5 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50237773"
+      },
+      {
+        "name": "Show HN: I gave my AI eyes for YouTube tutorials",
+        "url": "https://getframecap.com/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: I gave my AI eyes for YouTube tutorials",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50207650"
+      },
+      {
+        "name": "Show HN: LongTerMemory, AI-RAG Study tool helping people to study everything",
+        "url": "https://longtermemory.com",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Show HN: LongTerMemory, AI-RAG Study tool helping people to study everything",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50167678"
+      },
+      {
+        "name": "nykooi1/vibe-wise",
+        "url": "https://github.com/nykooi1/vibe-wise",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+        "why_it_matters": "GitHub · ⭐ 3964",
+        "source": "GitHub",
+        "source_url": "https://github.com/nykooi1/vibe-wise"
+      },
+      {
+        "name": "AI is devastating higher education, but the system was broken",
+        "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI is devastating higher education, but the system was broken",
+        "why_it_matters": "Hacker News 热度：21 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50215398"
+      },
+      {
+        "name": "What AI is revealing about education, what education must confront about itself",
+        "url": "https://vanessaandreotti.substack.com/p/in-the-digital-waters",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "What AI is revealing about education, what education must confront about itself",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50120190"
+      },
+      {
+        "name": "We Have Built the Matrix. Now AI Is Learning to Control It",
+        "url": "https://medium.com/system-weakness/we-have-already-built-the-matrix-now-ai-is-learning-to-control-it-6ac9ce1823b3",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "We Have Built the Matrix. Now AI Is Learning to Control It",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50231008"
+      },
+      {
+        "name": "Beating Warcraft III's insane AI with self-play reinforcement learning on one PC",
+        "url": "https://warlock.ai/blog/warcraftsim-1/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Beating Warcraft III's insane AI with self-play reinforcement learning on one PC",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50144489"
+      },
+      {
+        "name": "ConvyCanvas – AI Tutor for Euclid's Elements",
+        "url": "https://convycanvas.com/elements/reader/#euclid_i/prop_001",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "ConvyCanvas – AI Tutor for Euclid's Elements",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50131574"
+      },
+      {
+        "name": "Teacherless school says AI can teach students in 2 hours a day",
+        "url": "https://www.cbsnews.com/news/alpha-school-ai-teaching-2-hour-a-day/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Teacherless school says AI can teach students in 2 hours a day",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50195402"
+      },
+      {
+        "name": "Free AI education: certifications, hands-on technical courses, and resources",
+        "url": "https://www.aicertificationcouncil.com/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Free AI education: certifications, hands-on technical courses, and resources",
+        "why_it_matters": "Hacker News 热度：1 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50234555"
+      },
+      {
+        "name": "What are some free AI education platforms to learn AI? [video]",
+        "url": "https://www.youtube.com/watch?v=4iTqvHrzzAw",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "What are some free AI education platforms to learn AI? [video]",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50214934"
+      },
+      {
+        "name": "Belgrade AI Conference: Safety, Federated Learning and Hiring Bias",
+        "url": "https://irishtechnews.ie/belgrade-ai-conference-safety-learning/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Belgrade AI Conference: Safety, Federated Learning and Hiring Bias",
+        "why_it_matters": "Hacker News 热度：1 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50117475"
+      },
+      {
+        "name": "Elements of AI Course",
+        "url": "https://www.elementsofai.com/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Elements of AI Course",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50155632"
+      },
+      {
+        "name": "Perceptors AI – turning clinical expertise into reviewed courses",
+        "url": "https://www.perceptors.ai/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Perceptors AI – turning clinical expertise into reviewed courses",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50131799"
+      }
+    ]
+  },
+  {
     "week": "2026-W43",
     "date_range": "2026-10-19 ~ 2026-10-25",
     "generated_at": "2026-10-19",
