@@ -1,5 +1,112 @@
 [
   {
+    "week": "2026-W45",
+    "date_range": "2026-11-02 ~ 2026-11-08",
+    "generated_at": "2026-11-02",
+    "items": [
+      {
+        "name": "Show HN: I gave my AI eyes for YouTube tutorials",
+        "url": "https://getframecap.com/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "Show HN: I gave my AI eyes for YouTube tutorials",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50207650"
+      },
+      {
+        "name": "Show HN: HiPath AI – CS learning roadmaps where a quiz unlocks each lesson",
+        "url": "https://www.hipathai.me",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "Show HN: HiPath AI – CS learning roadmaps where a quiz unlocks each lesson",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50299645"
+      },
+      {
+        "name": "cranebeaker/coop-anything",
+        "url": "https://github.com/cranebeaker/coop-anything",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+        "why_it_matters": "GitHub · ⭐ 1790",
+        "source": "GitHub",
+        "source_url": "https://github.com/cranebeaker/coop-anything"
+      },
+      {
+        "name": "AI is devastating higher education, but the system was broken",
+        "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI is devastating higher education, but the system was broken",
+        "why_it_matters": "Hacker News 热度：22 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50215398"
+      },
+      {
+        "name": "Code.org's Excellent Beginner Programming Courses Get Lost in the AI Hype",
+        "url": "https://news.ycombinator.com/item?id=50242573",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Code.org's Excellent Beginner Programming Courses Get Lost in the AI Hype",
+        "why_it_matters": "Hacker News 热度：4 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50242573"
+      },
+      {
+        "name": "AI Did Not Break Education, It Revealed the Bug",
+        "url": "https://georgiker.com/blog/ai-did-not-break-education/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "AI Did Not Break Education, It Revealed the Bug",
+        "why_it_matters": "Hacker News 热度：3 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50286401"
+      },
+      {
+        "name": "How teachers are remaking classrooms for the AI age",
+        "url": "https://www.reuters.com/world/how-teachers-are-remaking-classrooms-ai-age-2026-10-28/",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "How teachers are remaking classrooms for the AI age",
+        "why_it_matters": "Hacker News 热度：2 分 · 1 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50286068"
+      },
+      {
+        "name": "We Have Built the Matrix. Now AI Is Learning to Control It",
+        "url": "https://medium.com/system-weakness/we-have-already-built-the-matrix-now-ai-is-learning-to-control-it-6ac9ce1823b3",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "We Have Built the Matrix. Now AI Is Learning to Control It",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50231008"
+      },
+      {
+        "name": "What are some free AI education platforms to learn AI? [video]",
+        "url": "https://www.youtube.com/watch?v=4iTqvHrzzAw",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "What are some free AI education platforms to learn AI? [video]",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50214934"
+      },
+      {
+        "name": "Online Learning Platforms with little to no AI usage",
+        "url": "https://www.reddit.com/r/edtech/comments/1xclr1g/online_learning_platforms_with_little_to_no_ai/",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Online Learning Platforms with little to no AI usage",
+        "why_it_matters": "Reddit r/edtech",
+        "source": "Reddit",
+        "source_url": "https://www.reddit.com/r/edtech/comments/1xclr1g/online_learning_platforms_with_little_to_no_ai/"
+      }
+    ]
+  },
+  {
     "week": "2026-W44",
     "date_range": "2026-10-26 ~ 2026-11-01",
     "generated_at": "2026-10-26",
