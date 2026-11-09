@@ -1,5 +1,122 @@
 [
   {
+    "week": "2026-W46",
+    "date_range": "2026-11-09 ~ 2026-11-15",
+    "generated_at": "2026-11-09",
+    "items": [
+      {
+        "name": "DenisSergeevitch/ex-ussr-kinship-research",
+        "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+        "why_it_matters": "GitHub · ⭐ 2216",
+        "source": "GitHub",
+        "source_url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+      },
+      {
+        "name": "One of Classical Music's Biggest Stars Says AI Is Degrading Our Taste",
+        "url": "https://www.bloomberg.com/features/2026-max-richter-weekend-interview/",
+        "country": "",
+        "category": "作业 / 批改 / 测评",
+        "one_liner": "One of Classical Music's Biggest Stars Says AI Is Degrading Our Taste",
+        "why_it_matters": "Hacker News 热度：6 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50414699"
+      },
+      {
+        "name": "Executive (C-Level) Decision Making Under Uncertainty with Large Language Models",
+        "url": "https://news.ycombinator.com/item?id=50391784",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Executive (C-Level) Decision Making Under Uncertainty with Large Language Models",
+        "why_it_matters": "Hacker News 热度：5 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50391784"
+      },
+      {
+        "name": "Peer Learning Between Agents in a Multi-Agent Team",
+        "url": "https://github.com/Mininglamp-AI/Octo",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Peer Learning Between Agents in a Multi-Agent Team",
+        "why_it_matters": "Hacker News 热度：3 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50389189"
+      },
+      {
+        "name": "Only today free language learning App with AI",
+        "url": "https://apps.apple.com/fr/app/habla-learn-spanish-fast/id6783860670",
+        "country": "",
+        "category": "语言学习",
+        "one_liner": "Only today free language learning App with AI",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50393528"
+      },
+      {
+        "name": "Free courses for AI at work (chat, delegate, automate, engineer)",
+        "url": "https://learn.zapier.com",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Free courses for AI at work (chat, delegate, automate, engineer)",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50353140"
+      },
+      {
+        "name": "AI Red Team Academy: Free, open-source course on breaking AI systems",
+        "url": "https://0x4d31.github.io/airt/",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "AI Red Team Academy: Free, open-source course on breaking AI systems",
+        "why_it_matters": "Hacker News 热度：2 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50350119"
+      },
+      {
+        "name": "What I'm teaching my children in the age of AI",
+        "url": "https://alfredlua.com/teaching-my-children-in-the-age-of-ai",
+        "country": "",
+        "category": "AI 助教",
+        "one_liner": "What I'm teaching my children in the age of AI",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50303310"
+      },
+      {
+        "name": "Are We Cooked? CMU Faculty on AI, Careers and Learning [video]",
+        "url": "https://www.youtube.com/watch?v=U2DDKdUvq6k",
+        "country": "",
+        "category": "AI + 教育",
+        "one_liner": "Are We Cooked? CMU Faculty on AI, Careers and Learning [video]",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50387940"
+      },
+      {
+        "name": "Skrongle Mini, a self hosted AI course generator and learning app on R. pi zero",
+        "url": "https://github.com/alexbeeken/skrongle-mini",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Skrongle Mini, a self hosted AI course generator and learning app on R. pi zero",
+        "why_it_matters": "Hacker News 热度：1 分 · 2 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50409456"
+      },
+      {
+        "name": "Top Platforms to Create AI-Powered Courses and Get Certified",
+        "url": "https://kadhar.dev/blog/top-ai-course-platforms",
+        "country": "",
+        "category": "课程 / 内容",
+        "one_liner": "Top Platforms to Create AI-Powered Courses and Get Certified",
+        "why_it_matters": "Hacker News 热度：1 分 · 0 评论",
+        "source": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=50370855"
+      }
+    ]
+  },
+  {
     "week": "2026-W45",
     "date_range": "2026-11-02 ~ 2026-11-08",
     "generated_at": "2026-11-02",
